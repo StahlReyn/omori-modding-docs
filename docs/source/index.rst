@@ -5,40 +5,176 @@ Overview
 Steam in 2020. Through custom tools, it is possible to mod the Steam
 version of the game.*
 
-.. warning:: Mature Content Description
+.. warning::
+   **Disclaimer**
+   OMORI is a registered trademark of OMOCAT LLC. This wiki is an
+   unofficial, fan-made resource and has no association with OMOCAT LLC.
+
+   **Mature Content Description**
    This game contains depictions of depression, anxiety, and suicide, and
    may not be suitable for all audiences. It also contains bright flashing
    imagery that may cause discomfort and/or seizures for those with
    photosensitive epilepsy. Viewer discretion is advised.
 
-.. warning:: Disclaimer
-   OMORI is a registered trademark of OMOCAT LLC. This wiki is an
-   unofficial, fan-made resource and has no association with OMOCAT LLC.
-
 Modding Tools
 -------------
 
-- **OMORI:** Having OMORI is a given, but in case you forgot you can get it `here <https://store.steampowered.com/app/1150690/OMORI/>`__.
-- **Oneloader:** Get Oneloader, the mod loader `here <https://github.com/rphsoftware/OneLoader/releases>`__. **This is required to create and install mods.** Learn how to install here.
-- **Bundletool:** `Bundletool <https://mods.one/mod/bt>`__ allows for the creation of mod zips for mods built off of a playtest folder. Created by Rph.
-- **Data Editing:** Get RPGMAKER MV `here <https://store.steampowered.com/app/363890/RPG_Maker_MV/>`__. **This is required to edit OMORI's data, map events, enemies, etc.** It's expensive but goes on sale often, you can see if it's on sale `here <https://isthereanydeal.com/game/rpgmakermv/info/>`__.
-- **Map Editing:** Get Tiled `here <https://www.mapeditor.org/2017/08/29/tiled-1-0-3-released.html>`__. **This is required to edit OMORI's map sprites and tilesets.**
-- **Dialogue and Plugin Editing:** While you can use just about any text editor to edit OMORI's dialogue and plugins, VSCode is recommended. It can be found `here <https://code.visualstudio.com/>`__.
-- **Sprite Editing:** Any digital art software will work for this. You can use `Medibang <https://medibangpaint.com/en/>`__ for free for all purposes, but `Aseprite <https://www.aseprite.org/>`__ is a good paid option for pixel sprites/tilesets.
+*   **OMORI:** Having OMORI is a given, but in case you forgot you can get it here:
+    
+    .. button-link:: https://steampowered.com
+        :color: primary
+        :shadow:
+
+        Get OMORI on Steam
+
+*   **Oneloader:** Get Oneloader, the mod loader here. **This is required to create and install mods.** Learn how to install here.
+    
+    .. button-link:: https://github.com
+        :color: primary
+        :shadow:
+
+        Download OneLoader
+
+*   **Bundletool:** Allows for the creation of mod zips for mods built off of a playtest folder. Created by Rph.
+    
+    .. button-link:: https://mods.one
+        :color: primary
+        :shadow:
+
+        Get Bundletool
+
+*   **Data Editing:** Get RPGMAKER MV here. **This is required to edit OMORI's data, map events, enemies, etc.** It's expensive but goes on sale often, you can see if it's on sale below.
+    
+    .. button-link:: https://steampowered.com
+        :color: primary
+        :shadow:
+
+        Get RPG Maker MV
+
+    .. button-link:: https://isthereanydeal.com
+        :color: secondary
+        :outline:
+        :shadow:
+
+        Check Price on IsThereAnyDeal
+
+*   **Map Editing:** Get Tiled here. **This is required to edit OMORI's map sprites and tilesets.**
+    
+    .. button-link:: https://mapeditor.org
+        :color: primary
+        :shadow:
+
+        Download Tiled
+
+*   **Dialogue and Plugin Editing:** While you can use just about any text editor to edit OMORI's dialogue and plugins, VSCode is recommended. It can be found here.
+    
+    .. button-link:: https://visualstudio.com
+        :color: primary
+        :shadow:
+
+        Download VSCode
+
+*   **Sprite Editing:** Any digital art software will work for this. You can use Medibang for free for all purposes, but Aseprite is a good paid option for pixel sprites/tilesets.
+    
+    .. button-link:: https://medibangpaint.com
+        :color: primary
+        :shadow:
+
+        Get MediBang Paint (Free)
+
+    .. button-link:: https://aseprite.org
+        :color: secondary
+        :outline:
+        :shadow:
+
+        Get Aseprite (Paid)
 
 Additional Resources
 --------------------
 
-- `Omori Community Discord Server <https://discord.gg/28KyGYvHCG>`__- A discord server to discuss OMORI and mod content, as well as ask for support on mod-related issues.
-- `The Omori Modding Masterdoc <https://docs.google.com/document/d/15UAzmwPaECVOfprx5xpaTPKrtwF69kSa2etuP6EqkaU/edit?usp=sharing>`__- A document containing information on creating mods. Less organized than the wiki but at the moment contains more info.
-- `Omori Text Formatting Guide <https://github.com/Gilbert142/gomori/wiki/Text-Formatting>`__- Contains and explains all of the commands used in Omori's dialogue/yaml files.
-- `RPGMAKER MV Script Calls <https://docs.google.com/spreadsheets/d/1-Oa0cRGpjC8L5JO8vdMwOaYMKO75dtfKDOetnvh7OHs/edit#gid=1514267595>`__- A handy spreadsheet containing script calls for RPGMAKER MV.
-- `Omori Script Tricks <https://docs.google.com/document/d/1ORpl6Ykxtm-_K2ak3GsH5nATyF7BjraQv6p8Q607FPQ/edit>`__- Contains some Omori-specific script calls, goes hand in hand with the RPG Maker MV document.
-- `RPG Maker MV Forums <https://forums.rpgmakerweb.com/index.php?forums/rpg-maker-mv-support.129/>`__- A support forum for everything RPG Maker related.
-- `Omori Data Archive <https://goats.dev/omori/maps.html>`__- An archive containing every map, dialogue, variable, and switch in the game.
-- `Omori Utilities <https://github.com/rphsoftware/omori-utils>`__- Contains several handy plugins for adding or fixing minor things in your mods.
+.. button-link:: https://discord.gg
+    :color: primary
+    :shadow:
+
+    Omori Community Discord Server
+
+.. button-link:: https://google.com
+    :color: primary
+    :shadow:
+
+    The Omori Modding Masterdoc
+
+.. button-link:: https://github.com
+    :color: primary
+    :shadow:
+
+    Omori Text Formatting Guide
+
+.. button-link:: https://google.com
+    :color: primary
+    :shadow:
+
+    RPGMAKER MV Script Calls
+
+.. button-link:: https://google.com
+    :color: primary
+    :shadow:
+
+    Omori Script Tricks
+
+.. button-link:: https://rpgmakerweb.com
+    :color: primary
+    :shadow:
+
+    RPG Maker MV Forums
+
+.. button-link:: https://goats.dev
+    :color: primary
+    :shadow:
+
+    Omori Data Archive
+
+.. button-link:: https://github.com
+    :color: primary
+    :shadow:
+
+    Omori Utilities
+
+Links
+-----
+
+.. button-link:: https://github.com
+    :color: primary
+    :shadow:
+
+    Mod Resources/Plugins
+
+.. button-link:: https://discord.gg
+    :color: primary
+    :shadow:
+
+    Omori Modding Hub (Server)
+
+.. button-link:: https://mods.one
+    :color: primary
+    :shadow:
+
+    Omori Mod Site (Unofficial)
+
+.. button-link:: https://goats.dev
+    :color: primary
+    :shadow:
+
+    Omori Data Archive
+
+.. button-link:: https://google.com
+    :color: primary
+    :shadow:
+
+    WIP Modding Guide (Google Docs)
 
 .. toctree::
+   :hidden:
    :maxdepth: 2
    :caption: 🚩 Getting Started
    
@@ -58,6 +194,7 @@ Additional Resources
    getting-started/source-control-with-github/using-repositories
 
 .. toctree::
+   :hidden:
    :maxdepth: 2
    :caption: 🏰 RPG Maker MV
 
@@ -85,6 +222,7 @@ Additional Resources
    rpgmaker/fps-wait-optimization
 
 .. toctree::
+   :hidden:
    :maxdepth: 2
    :caption: 🎨 Art Assets
 
@@ -105,16 +243,8 @@ Additional Resources
    art-assets/animated-pictures
 
 .. toctree::
+   :hidden:
    :maxdepth: 1
    :caption: Community
 
    community/omori-mod-licensing-guide
-
-Links
------
-
-* `Mod Resources/Plugins <https://github.com/modsone/omori-modding-resources>`_
-* `Omori Modding Hub (Server) <https://discord.gg/pkBEr7ywCG>`_
-* `Omori Mod Site (Unofficial) <https://mods.one/>`_
-* `Omori Data Archive <https://goats.dev/omori/maps.html>`_
-* `WIP Modding Guide (Google Docs) <https://docs.google.com/document/d/1t59hzeERvwok2ZsQVs6AgFj5WVZdeAPwiWYFgkDGLiE/edit?tab=t.0#heading=h.toiszrxt17u7>`_
