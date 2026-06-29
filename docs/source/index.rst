@@ -6,11 +6,11 @@ Steam in 2020. Through custom tools, it is possible to mod the Steam
 version of the game.*
 
 .. warning::
-   **Disclaimer**
+   **Disclaimer:** 
    OMORI is a registered trademark of OMOCAT LLC. This wiki is an
    unofficial, fan-made resource and has no association with OMOCAT LLC.
 
-   **Mature Content Description**
+   **Mature Content Description:** 
    This game contains depictions of depression, anxiety, and suicide, and
    may not be suitable for all audiences. It also contains bright flashing
    imagery that may cause discomfort and/or seizures for those with
@@ -19,159 +19,259 @@ version of the game.*
 Modding Tools
 -------------
 
-*   **OMORI:** Having OMORI is a given, but in case you forgot you can get it here:
-    
-    .. button-link:: https://steampowered.com
-        :color: primary
-        :shadow:
+.. grid:: 1 2 2 2
+    :gutter: 3
 
-        Get OMORI on Steam
+    .. grid-item-card:: OMORI
+        :shadow: md
 
-*   **Oneloader:** Get Oneloader, the mod loader here. **This is required to create and install mods.** Learn how to install here.
-    
-    .. button-link:: https://github.com
-        :color: primary
-        :shadow:
+        Having OMORI is a given, but in case you forgot you can get it on Steam.
+        ^^^
+        .. button-link:: https://steampowered.com
+            :color: primary
+            :expand:
+            :shadow:
 
-        Download OneLoader
+            Get OMORI
 
-*   **Bundletool:** Allows for the creation of mod zips for mods built off of a playtest folder. Created by Rph.
-    
-    .. button-link:: https://mods.one
-        :color: primary
-        :shadow:
+    .. grid-item-card:: Oneloader
+        :shadow: md
 
-        Get Bundletool
+        Get Oneloader, the mod loader. **This is required to create and install mods.** Learn how to install here.
+        ^^^
+        .. button-link:: https://github.com
+            :color: primary
+            :expand:
+            :shadow:
 
-*   **Data Editing:** Get RPGMAKER MV here. **This is required to edit OMORI's data, map events, enemies, etc.** It's expensive but goes on sale often, you can see if it's on sale below.
-    
-    .. button-link:: https://steampowered.com
-        :color: primary
-        :shadow:
+            Download OneLoader
 
-        Get RPG Maker MV
+    .. grid-item-card:: Bundletool
+        :shadow: md
 
-    .. button-link:: https://isthereanydeal.com
-        :color: secondary
-        :outline:
-        :shadow:
+        Allows for the creation of mod zips for mods built off of a playtest folder. Created by Rph.
+        ^^^
+        .. button-link:: https://mods.one
+            :color: primary
+            :expand:
+            :shadow:
 
-        Check Price on IsThereAnyDeal
+            Get Bundletool
 
-*   **Map Editing:** Get Tiled here. **This is required to edit OMORI's map sprites and tilesets.**
-    
-    .. button-link:: https://mapeditor.org
-        :color: primary
-        :shadow:
+    .. grid-item-card:: Data Editing
+        :shadow: md
 
-        Download Tiled
+        Get RPGMAKER MV. **This is required to edit OMORI's data, map events, enemies, etc.** It's expensive but goes on sale often.
+        ^^^
+        .. button-link:: https://steampowered.com
+            :color: primary
+            :expand:
+            :shadow:
 
-*   **Dialogue and Plugin Editing:** While you can use just about any text editor to edit OMORI's dialogue and plugins, VSCode is recommended. It can be found here.
-    
-    .. button-link:: https://visualstudio.com
-        :color: primary
-        :shadow:
+            Get RPG Maker MV
 
-        Download VSCode
+        .. button-link:: https://isthereanydeal.com
+            :color: secondary
+            :outline:
+            :expand:
+            :shadow:
+            :class: mt-2
 
-*   **Sprite Editing:** Any digital art software will work for this. You can use Medibang for free for all purposes, but Aseprite is a good paid option for pixel sprites/tilesets.
-    
-    .. button-link:: https://medibangpaint.com
-        :color: primary
-        :shadow:
+            Check Sales (IsThereAnyDeal)
 
-        Get MediBang Paint (Free)
+    .. grid-item-card:: Map Editing
+        :shadow: md
 
-    .. button-link:: https://aseprite.org
-        :color: secondary
-        :outline:
-        :shadow:
+        Get Tiled. **This is required to edit OMORI's map sprites and tilesets.**
+        ^^^
+        .. button-link:: https://mapeditor.org
+            :color: primary
+            :expand:
+            :shadow:
 
-        Get Aseprite (Paid)
+            Download Tiled
+
+    .. grid-item-card:: Dialogue and Plugin Editing
+        :shadow: md
+
+        While you can use just about any text editor to edit OMORI's dialogue and plugins, VSCode is recommended.
+        ^^^
+        .. button-link:: https://visualstudio.com
+            :color: primary
+            :expand:
+            :shadow:
+
+            Download VSCode
+
+    .. grid-item-card:: Sprite Editing
+        :shadow: md
+
+        Any digital art software will work for this. You can use Medibang for free, or Aseprite as a paid pixel-art option.
+        ^^^
+        .. button-link:: https://medibangpaint.com
+            :color: primary
+            :expand:
+            :shadow:
+
+            Get MediBang Paint (Free)
+
+        .. button-link:: https://aseprite.org
+            :color: secondary
+            :outline:
+            :expand:
+            :shadow:
+            :class: mt-2
+
+            Get Aseprite (Paid)
+
 
 Additional Resources
 --------------------
 
-.. button-link:: https://discord.gg
-    :color: primary
-    :shadow:
+.. grid:: 1 2 2 3
+    :gutter: 3
 
-    Omori Community Discord Server
+    .. grid-item-card:: Community Hub
+        :shadow: sm
 
-.. button-link:: https://google.com
-    :color: primary
-    :shadow:
+        A discord server to discuss OMORI and mod content, as well as ask for support on mod-related issues.
+        ^^^
+        .. button-link:: https://discord.gg
+            :color: primary
+            :expand:
 
-    The Omori Modding Masterdoc
+            Omori Discord Server
 
-.. button-link:: https://github.com
-    :color: primary
-    :shadow:
+    .. grid-item-card:: Documentation
+        :shadow: sm
 
-    Omori Text Formatting Guide
+        A document containing information on creating mods. Less organized than the wiki but contains more info.
+        ^^^
+        .. button-link:: https://google.com
+            :color: primary
+            :expand:
 
-.. button-link:: https://google.com
-    :color: primary
-    :shadow:
+            Modding Masterdoc
 
-    RPGMAKER MV Script Calls
+    .. grid-item-card:: Reference
+        :shadow: sm
 
-.. button-link:: https://google.com
-    :color: primary
-    :shadow:
+        Contains and explains all of the commands used in Omori's dialogue/yaml files.
+        ^^^
+        .. button-link:: https://github.com
+            :color: primary
+            :expand:
 
-    Omori Script Tricks
+            Text Formatting Guide
 
-.. button-link:: https://rpgmakerweb.com
-    :color: primary
-    :shadow:
+    .. grid-item-card:: Development Spreadsheet
+        :shadow: sm
 
-    RPG Maker MV Forums
+        A handy spreadsheet containing script calls for RPGMAKER MV.
+        ^^^
+        .. button-link:: https://google.com
+            :color: primary
+            :expand:
 
-.. button-link:: https://goats.dev
-    :color: primary
-    :shadow:
+            RPGMAKER MV Scripts
 
-    Omori Data Archive
+    .. grid-item-card:: Dev Notes
+        :shadow: sm
 
-.. button-link:: https://github.com
-    :color: primary
-    :shadow:
+        Contains some Omori-specific script calls, goes hand in hand with the RPG Maker MV document.
+        ^^^
+        .. button-link:: https://google.com
+            :color: primary
+            :expand:
 
-    Omori Utilities
+            Omori Script Tricks
+
+    .. grid-item-card:: Forum Support
+        :shadow: sm
+
+        A support forum for everything RPG Maker related.
+        ^^^
+        .. button-link:: https://rpgmakerweb.com
+            :color: primary
+            :expand:
+
+            RPG Maker MV Forums
+
+    .. grid-item-card:: Database Archive
+        :shadow: sm
+
+        An archive containing every map, dialogue, variable, and switch in the game.
+        ^^^
+        .. button-link:: https://goats.dev
+            :color: primary
+            :expand:
+
+            Omori Data Archive
+
+    .. grid-item-card:: Extension Pack
+        :shadow: sm
+
+        Contains several handy plugins for adding or fixing minor things in your mods.
+        ^^^
+        .. button-link:: https://github.com
+            :color: primary
+            :expand:
+
+            Omori Utilities
+
 
 Links
 -----
 
-.. button-link:: https://github.com
-    :color: primary
-    :shadow:
+.. grid:: 1 2 2 3
+    :gutter: 2
 
-    Mod Resources/Plugins
+    .. grid-item-card::
+        :shadow: sm
 
-.. button-link:: https://discord.gg
-    :color: primary
-    :shadow:
+        .. button-link:: https://github.com
+            :color: link
+            :expand:
 
-    Omori Modding Hub (Server)
+            Mod Resources/Plugins
 
-.. button-link:: https://mods.one
-    :color: primary
-    :shadow:
+    .. grid-item-card::
+        :shadow: sm
 
-    Omori Mod Site (Unofficial)
+        .. button-link:: https://discord.gg
+            :color: link
+            :expand:
 
-.. button-link:: https://goats.dev
-    :color: primary
-    :shadow:
+            Omori Modding Hub (Server)
 
-    Omori Data Archive
+    .. grid-item-card::
+        :shadow: sm
 
-.. button-link:: https://google.com
-    :color: primary
-    :shadow:
+        .. button-link:: https://mods.one
+            :color: link
+            :expand:
 
-    WIP Modding Guide (Google Docs)
+            Omori Mod Site (Unofficial)
+
+    .. grid-item-card::
+        :shadow: sm
+
+        .. button-link:: https://goats.dev
+            :color: link
+            :expand:
+
+            Omori Data Archive
+
+    .. grid-item-card::
+        :shadow: sm
+
+        .. button-link:: https://google.com
+            :color: link
+            :expand:
+
+            WIP Modding Guide (Google Docs)
+
+
 
 .. toctree::
    :hidden:
