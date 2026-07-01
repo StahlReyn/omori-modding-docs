@@ -48,6 +48,5 @@ Under ``img`` you should find the following folders:
    :hidden:
    :maxdepth: 1
    
-   common-file-types-1
-   omori
+   common-file-types
    
