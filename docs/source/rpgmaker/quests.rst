@@ -113,7 +113,7 @@ Displays the Lightbulb bubble that shows the quest is still Finished.
 
    <p>
 
-Alternative: this.setEventIcon(eventid, ‘quest', index);
+Alternative: this.setEventIcon(eventid, 'quest', index);
 
 .. raw:: html
 

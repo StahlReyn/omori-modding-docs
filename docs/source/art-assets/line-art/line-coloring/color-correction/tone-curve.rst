@@ -8,21 +8,7 @@ sketch.
 
 {% tabs %} {% tab title="Clip Studio Paint" %} TBA
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 {% endtab %}
 

@@ -17,21 +17,7 @@ But before we can start making new feelings for our friends and foes to
 feel, we have to learn the basics of how states work, since they are
 much more than just emotions.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 (source: TomatoRadio)
 
@@ -67,21 +53,7 @@ Traits are modifiers placed onto the battler inflicted with the state.
 You can add as many as you like in one state. An \* indicates the trait
 is not used in OMORI.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 Element Rate: A percentage based multiplier on the damage taken from the
 element listed. This is used mainly for Emotions.
@@ -97,21 +69,7 @@ the notetags that most of OMORI uses.)
 
 State Resist: Become immune to the listed state.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 Parameter: A percentage based multiplier on the listed stat.
 
@@ -120,21 +78,7 @@ Ex-Parameter: A percentage based adder on the listed stat.
 | Sp-Parameter: A percentage based multiplier on the listed stat.
 | All of these parameters will be detailed in the following section.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 Attack Element: Adds the listed element to any skills used. Mainly used
 for Emotions.
@@ -150,21 +94,7 @@ the notetags that most of OMORI uses.)
 Attack Times +: Repeats the skill used. So +1 makes the skill happen
 twice.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 \*Add Skill Type: Adds the listed skill type to the available skills.
 This doesn't really apply to OMORI.
@@ -179,21 +109,7 @@ through troop events in OMORI.
 \*Seal Skill: Seals use of the listed skill. Works fine, it's just not
 used in OMORI.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 \*Equip Weapon: Unlocks the inputted weapon type. This would allow for
 characters to equip each other's weapons if out of battle.
@@ -209,21 +125,7 @@ states, but is used for Omori and Sunny's weapons.
 
 \*Slot Type: Meant for dual-wielding. Doesn't work in OMORI.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 \*Action Times +: A percentage based chance that an actor will execute a
 command a second time. These can stack.
@@ -518,21 +420,7 @@ What I am going to teach is what I believe are the minimum requirements
 to get emotions to function, meaning there are likely cases where your
 emotion will break.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 This is the State for the Ecstatic emotion.
 

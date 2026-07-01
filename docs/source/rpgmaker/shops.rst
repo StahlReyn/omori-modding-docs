@@ -19,8 +19,8 @@ selection between Buying, Selling, and Cancel. You can refer to the
 above sections on how to do that. 
 
 Now, in the Buying section, we're going to use a Script Command, that
-being "this.setupShop(‘name', 0)" What this does is it tells the game
-what dialogue it should be showing, which is done through the ‘name',
+being "this.setupShop('name', 0)" What this does is it tells the game
+what dialogue it should be showing, which is done through the 'name',
 which should be the name you gave your dealer in the System.yaml file.
 Then the 0 tells the game you are buying. Now just use the Shop
 Processing Command to add all your items and set their prices. Make sure

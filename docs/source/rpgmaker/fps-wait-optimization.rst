@@ -11,58 +11,16 @@ excessive and can be tweaked to remove artificial loading times.
 First, go to the Plugin Manager in RPG Maker MV (the "puzzle" icon on
 the top bar), then scroll down until you get to the WaitFPS plugin.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 Click on it to bring up its settings.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 You will want to change the numbers on the right until they match the
 below screenshot.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 From there, click "OK" -> "Apply". There should be a decrease in loading
 time during room transitions and when loading many objects at once.

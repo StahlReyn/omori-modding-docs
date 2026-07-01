@@ -17,21 +17,7 @@ Download the file here:
 You will want to put it into your playtest folder as shown, and then run
 it.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 You can use a checkbox in the map options of OneMaker to disable or
 enable tiled map viewing.

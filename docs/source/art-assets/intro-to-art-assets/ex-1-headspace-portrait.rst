@@ -176,21 +176,7 @@ reduce the back texture of the paper a little. Not too much, as paper
 texture is still wanted. This is shown as curved pushed up a little on
 right side.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 {% endtab %}
 

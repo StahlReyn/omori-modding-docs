@@ -8,21 +8,7 @@ Oh, thank god, an easy question.
 Yes. Lucky for both of us, Weapons and Charms are some of the easiest
 things to implement in OMORI, so this will be brief.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 All right. Lightning round on what all these do.
 

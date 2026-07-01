@@ -16,31 +16,9 @@ changed when you commit to a repository. This is called a diff.
 
 Here's an example of one:
 
-.. raw:: html
+:samp:
 
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   <p>
-
-(Source, parallels diff, courtesy of FruitDragon)
-
-.. raw:: html
-
-   </p>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+*Parallels diff. Credit: FruitDragon*
 
 The red is the old change, the green is the new change.
 
@@ -53,7 +31,7 @@ for GitHub terms.
 - Source Control: Also known as version control, it's a system or
   software used to track changes to files (such as code files) over
   time.
-- Diff: Short for ‘difference', it's basically a summary or overview of
+- Diff: Short for 'difference', it's basically a summary or overview of
   the changes that have occurred to a file.
 - Origin: The online copy of your repository hosted by GitHub.
 - Commit: Saving your changes to the repository, essentially creating a

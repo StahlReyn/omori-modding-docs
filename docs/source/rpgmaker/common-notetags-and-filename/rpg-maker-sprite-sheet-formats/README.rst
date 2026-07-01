@@ -46,21 +46,7 @@ width of 32 x 32 pixels, and the same applies to this specific sheet.
 
 The directions for the sprites are shown below:
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 This applies to every single character sheet and cannot be changed.
 

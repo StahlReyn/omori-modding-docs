@@ -20,21 +20,7 @@ Features:
 - The Show Text command is now formatted correctly to fit OMORI's face
   images. Comments and Script Commands can now have way more lines.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 To start installation, you will want to download this:
 

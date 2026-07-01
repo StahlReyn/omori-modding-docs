@@ -269,18 +269,9 @@ Additional Resources
    
    getting-started/installing-mods
    getting-started/decryption-and-playtest-generation/README
-   getting-started/decryption-and-playtest-generation/resetting-installation
-   getting-started/decryption-and-playtest-generation/dev-tools
    getting-started/packaging-mods/README
-   getting-started/packaging-mods/mod.json-file
    getting-started/omori-files-guide/README
-   getting-started/omori-files-guide/common-file-types
-   getting-started/omori-files-guide/omori-files-index/README
-   getting-started/omori-files-guide/omori-files-index/data-files
    getting-started/source-control-with-github/README
-   getting-started/source-control-with-github/github-account-creation
-   getting-started/source-control-with-github/creating-repositories
-   getting-started/source-control-with-github/using-repositories
 
 .. toctree::
    :hidden:
@@ -289,22 +280,12 @@ Additional Resources
 
    rpgmaker/intro-to-rpg-maker-mv
    rpgmaker/onemaker-installation/README
-   rpgmaker/onemaker-installation/visible-tiled-maps-in-rpg-maker
    rpgmaker/common-notetags-and-filename/README
-   rpgmaker/common-notetags-and-filename/map-event-notetags
    rpgmaker/common-notetags-and-filename/rpg-maker-sprite-sheet-formats/README
-   rpgmaker/common-notetags-and-filename/rpg-maker-sprite-sheet-formats/sprite-sheet-filenames
-   rpgmaker/common-notetags-and-filename/enemy-notetags
    rpgmaker/custom-battles/README
-   rpgmaker/custom-battles/plot-armor
-   rpgmaker/custom-battles/custom-states-and-emotions
-   rpgmaker/custom-battles/custom-weapons-and-charms
-   rpgmaker/custom-battles/custom-skill-notetags
    rpgmaker/map-creation
    rpgmaker/event-plugin-commands
    rpgmaker/yaml-texts-and-dialogues/README
-   rpgmaker/yaml-texts-and-dialogues/text-codes
-   rpgmaker/yaml-texts-and-dialogues/omori-text-color-convention
    rpgmaker/shops
    rpgmaker/quests
    rpgmaker/bubbles-balloons
@@ -316,19 +297,8 @@ Additional Resources
    :caption: 🎨 Art Assets
 
    art-assets/intro-to-art-assets/README
-   art-assets/intro-to-art-assets/ex-1-headspace-portrait
-   art-assets/intro-to-art-assets/art-specifications
-   art-assets/intro-to-art-assets/art-programs
    art-assets/line-art/README
-   art-assets/line-art/preparations
-   art-assets/line-art/line-quality
    art-assets/line-art/line-coloring/README
-   art-assets/line-art/line-coloring/direct-colored-brush
-   art-assets/line-art/line-coloring/blend-layers
-   art-assets/line-art/line-coloring/color-correction/README
-   art-assets/line-art/line-coloring/color-correction/color-balance
-   art-assets/line-art/line-coloring/color-correction/tone-curve
-   art-assets/line-art/line-coloring/color-correction/gradient-maps
    art-assets/animated-pictures
 
 .. toctree::

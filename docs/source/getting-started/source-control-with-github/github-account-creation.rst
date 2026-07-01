@@ -17,31 +17,8 @@ it.
 
 You'll end up with a screen that looks something like this.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   <p>
-
-(source: zoewillowz)
-
-.. raw:: html
-
-   </p>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
+*Credit: zoewillowz*
 
 Click "Sign in with GitHub.com" and log into your account. Make sure to
 click "Authorize Desktop". Return to GitHub Desktop.

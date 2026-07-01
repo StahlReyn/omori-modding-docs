@@ -5,21 +5,7 @@ Let's practice pushing to our repository. I'm going to do something
 simple: add a new image file to the img/characters folder. Let's see
 what that looks like in GitHub Desktop.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+:samp:
 
 It shows me a preview of what I've added! This is super helpful when I'm
 trying to see what I've added without having to navigate the folder.
