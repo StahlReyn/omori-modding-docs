@@ -115,14 +115,14 @@ Sideview Battler Motion
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Sideview Battler Motion is the one that changes between emotion, with
-Index changing the row the sprite is referring to in OMORI’s case.
-Here’s all common emotion variant to save time with editing by copy
+Index changing the row the sprite is referring to in OMORI's case.
+Here's all common emotion variant to save time with editing by copy
 paste, in order same as enemy in Neutral, Happy, Sad, then Angry.
 
-{% tabs %} {% tab title=“Empty” %} This is empty tab just to save wall
+{% tabs %} {% tab title="Empty" %} This is empty tab just to save wall
 of text. {% endtab %}
 
-{% tab title=“Neutral” %}
+{% tab title="Neutral" %}
 
 ::
 
@@ -191,7 +191,7 @@ of text. {% endtab %}
 
 {% endtab %}
 
-{% tab title=“Happy” %}
+{% tab title="Happy" %}
 
 ::
 
@@ -260,7 +260,7 @@ of text. {% endtab %}
 
 {% endtab %}
 
-{% tab title=“Sad” %}
+{% tab title="Sad" %}
 
 ::
 
@@ -329,7 +329,7 @@ of text. {% endtab %}
 
 {% endtab %}
 
-{% tab title=“Angry” %}
+{% tab title="Angry" %}
 
 ::
 

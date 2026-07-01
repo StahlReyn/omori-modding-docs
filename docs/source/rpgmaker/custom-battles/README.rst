@@ -23,15 +23,15 @@ Everything after that gets a little complicated, though.
 Configuring Enemy Emotions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Omori’s emotion system for enemies is complicated. It works by taking
-an enemy “base ID”, then adding 1, 2, or 3 to that ID to apply the new
+*Omori's emotion system for enemies is complicated. It works by taking
+an enemy "base ID", then adding 1, 2, or 3 to that ID to apply the new
 emotion.*
 
 You will need to create an extra enemy in the database for each emotion
 they have, including neutral. This can be easily done by finishing the
 neutral enemy first, then copying it (using CTRL+C/CTRL+V) to however
 many new entries you need. The way the game determines emotion is by
-adding a number to the enemy’s ID, so the emotions will have to be in
+adding a number to the enemy's ID, so the emotions will have to be in
 specific places. An image roughly showing the order is shown below.
 Please copy the same format for your custom enemy.
 
@@ -44,11 +44,11 @@ Please copy the same format for your custom enemy.
 General Settings
 ~~~~~~~~~~~~~~~~
 
-Here you can change the enemy’s name and stats. Omori does not use the
+Here you can change the enemy's name and stats. Omori does not use the
 M. Attack and M. Defense stats, and editing them will do nothing. The
-other stats are used, though. You can change the enemy’s “image” too,
-but this will be unused in actual combat. You’re still required to set
-it to some image, though. More info on this can be found in the “Note”
+other stats are used, though. You can change the enemy's "image" too,
+but this will be unused in actual combat. You're still required to set
+it to some image, though. More info on this can be found in the "Note"
 section.
 
 Rewards
@@ -66,13 +66,13 @@ Action Patterns
 ^^^^^^^^^^^^^^^
 
 Here you can add skills the enemy can use, and the frequency at which
-they use them. However, for the most part, Omori’s enemies use a more
+they use them. However, for the most part, Omori's enemies use a more
 complex battle AI system via notes.
 
 Traits
 ^^^^^^
 
-Here you can add specific parameters that affect the enemy’s behaviors.
+Here you can add specific parameters that affect the enemy's behaviors.
 There is a lot to mess with here, but for reference, the average enemy
 will have resistances to all 2nd and 3rd tier emotions.
 
@@ -87,7 +87,7 @@ below.
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Please replace the number with the ID (number to the left of the entry)
-of your own enemy’s **neutral version,** or base. This applies even to
+of your own enemy's **neutral version,** or base. This applies even to
 the different emotion variants.
 
 ``<Static Level: x>``
@@ -113,10 +113,10 @@ explanation can be found on the Yanfly Wiki found
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Determines the sprite used, based on sheets found in the
-``img/sv_actors`` folder, following the naming scheme of “!battle_x”.
-For example, Sweetheart’s sprite is ``!battle_sweetheart.png``.
+``img/sv_actors`` folder, following the naming scheme of "!battle_x".
+For example, Sweetheart's sprite is ``!battle_sweetheart.png``.
 
-{% hint style=“info” %} The filename of the sprite in this folder must
+{% hint style="info" %} The filename of the sprite in this folder must
 also have a corresponding sprite of the same name (in this case,
 ``!battle_sweetheart.png``) in the ``img/enemies`` folder. {% endhint %}
 
@@ -124,7 +124,7 @@ also have a corresponding sprite of the same name (in this case,
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Determines how many frames of animation the enemy has. You will most
-likely keep this at 4 unless you know what you’re doing.
+likely keep this at 4 unless you know what you're doing.
 
 ``<Sideview Battler Speed: x>``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -144,7 +144,7 @@ The Index number in Omori case is essentially what Row of sprite is to
 be used. The name field is more of a left over, with only Damage and
 Dead field being used.
 
-Note that you will have to change all the values that are “0” to
+Note that you will have to change all the values that are "0" to
 different numbers for the emotion variations: Happy is set to 5, Sad is
 set to 3, and Angry is set to 4. 
 
@@ -169,7 +169,7 @@ Example Code
    </summary>
 
 A template note script from the forest bunny enemy is shown below.
-Please feel free to copy and paste it into your enemy’s notes.
+Please feel free to copy and paste it into your enemy's notes.
 
 ::
 
@@ -265,7 +265,7 @@ Please feel free to copy and paste it into your enemy’s notes.
 
    </details>
 
-{% hint style=“info” %} The Sideview Battler Motion is from a plugin by
+{% hint style="info" %} The Sideview Battler Motion is from a plugin by
 Yanfly in **Animated Sideview Enemies (YEP)**. The wiki can be found
 here: http://www.yanfly.moe/wiki/Animated_Sideview_Enemies_(YEP)
 
@@ -277,12 +277,12 @@ Creating a Custom Battle
 
 *With a new enemy created, they can now be used in custom battles.* 
 
-First you must create an entry in the “Troops” tab for the enemy, or a
+First you must create an entry in the "Troops" tab for the enemy, or a
 group of enemies, to be fought. This does not need anything special and
-can be done the same way it’s normally done in RPG Maker. 
+can be done the same way it's normally done in RPG Maker. 
 
-To start the battle, you need to create a new event using the “Battle
-Processing” block. From there you can select the troop you wish to
+To start the battle, you need to create a new event using the "Battle
+Processing" block. From there you can select the troop you wish to
 battle.
 
 Omori battles normally have a transition before them. These transitions

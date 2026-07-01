@@ -2,7 +2,7 @@ Sprite Sheet Filenames
 ======================
 
 Sometimes some sprite sheet have special character associated in the
-file name, which changes it’s function.
+file name, which changes it's function.
 
 Sprites are set by the **top-left corner** of the sprite. Meaning larger
 sprites will overlap to the bottom-right tiles.
@@ -170,7 +170,7 @@ Default
 
    <p>
 
-Turns the sprite so it’s only single character.
+Turns the sprite so it's only single character.
 
 .. raw:: html
 
@@ -367,12 +367,12 @@ Running Sprites, Fear Enemies
 
    </table>
 
-{% hint style=“info” %} Prefixes also can be combined {% endhint %}
+{% hint style="info" %} Prefixes also can be combined {% endhint %}
 
 Examples
 --------
 
-Here’s some example sprite used in actual game, with context.
+Here's some example sprite used in actual game, with context.
 
 .. container::
 
@@ -443,7 +443,7 @@ Here’s some example sprite used in actual game, with context.
 
       <p>
 
-   $FA_OMORI_RUN%(8).pngThis is a running sprite, $ sign tells it’s
+   $FA_OMORI_RUN%(8).pngThis is a running sprite, $ sign tells it's
    single character,%(8) tells there are 8 frame horizontal.
 
    .. raw:: html
@@ -458,7 +458,7 @@ Here’s some example sprite used in actual game, with context.
 
       </figure>
 
-{% hint style=“info” %} In some sprite you might notice some have a
+{% hint style="info" %} In some sprite you might notice some have a
 combination of multiple things in the same area. This is likely that the
 frames are still or hard set to specific frames, being set in RPGMV. By
 default RPGMV will go by 3x4 set treating like characters. {% endhint %}
@@ -467,5 +467,5 @@ Extra Resources
 ---------------
 
 {% embed
-url=“https://forums.rpgmakerweb.com/index.php?threads/sprite-sheet-formats-and.63612/”
+url="https://forums.rpgmakerweb.com/index.php?threads/sprite-sheet-formats-and.63612/"
 %} RPG Maker Forums on Sprite Sheet Formats {% endembed %}

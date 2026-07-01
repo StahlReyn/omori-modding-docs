@@ -41,7 +41,7 @@ In the Windows.png file, there is group of color pallette on the bottom
 right corner. The color picked are referenced from the color in the
 square. Starting from first square being number 0.
 
-{% hint style=“info” %} Note that Omori changes the Windows.png color
+{% hint style="info" %} Note that Omori changes the Windows.png color
 palette from the usual standard default {% endhint %}
 
 Color Convention

@@ -15,7 +15,7 @@ few things:
 Setting Up Tiled
 ----------------
 
-As stated on the resources page, Tiled is the application of the game’s
+As stated on the resources page, Tiled is the application of the game's
 maps and tilesets. Note: This is the visual aspect of the maps, the data
 and events stored in the maps are accessed via RPGMAKER.
 
@@ -26,7 +26,7 @@ This is an older version of Tiled, and it is the version that is the
 most stable out of the box for omori modding. You just `follow the
 instructions
 here <https://github.com/mapeditor/tiled/releases/tag/v1.0.3>`__ to
-install it and you’re ready to make maps!
+install it and you're ready to make maps!
 
 Later Versions of Tiled
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -40,7 +40,7 @@ correct this there are a few things you will have to do.
 First, Download the ``TerrainTiles.json`` file found
 `here <https://github.com/FoGsesipod/Terrain-Fix>`__, and replace it
 with the one in your playtest copy. The file should be located in the
-“maps” folder.
+"maps" folder.
 
 Next, download the Tiled Map Fixer plugin on the page linked
 `here <https://gist.github.com/rphsoftware/51cc72721c25eeea54de50850abd8ea6>`__
@@ -52,9 +52,9 @@ into a proper mod!
 Creating a New Map
 ------------------
 
-Maps can be created from RPG Maker’s main interface. You can either
+Maps can be created from RPG Maker's main interface. You can either
 right click on the maps list toward the left or press the enter key to
-create a new map. You’ll know if you’re doing it right if the menu shown
+create a new map. You'll know if you're doing it right if the menu shown
 below appears.
 
 .. figure::
@@ -63,9 +63,9 @@ below appears.
 
    mapcreation
 
-The creation menu is straightforward but if you’re struggling to
+The creation menu is straightforward but if you're struggling to
 understand it I would advise watching tutorials on how RPG Maker MV
-works. What’s important here for Omori modding specifically is that you
+works. What's important here for Omori modding specifically is that you
 remember the id and the width and the height set, but if you need a
 refresher that information can be found toward the bottom of the screen.
 
@@ -75,31 +75,31 @@ refresher that information can be found toward the bottom of the screen.
 
    mapID
 
-In the image shown here, the map’s id is 516, and the dimensions are
+In the image shown here, the map's id is 516, and the dimensions are
 40x40 (in order of widthxheight). I recommend remembering the location
-of these items as you’ll reference them often!
+of these items as you'll reference them often!
 
-Now you have to make the Tiled map file. If you don’t do this, the map
-will not load in game! This is usually the next step you’d want to take
+Now you have to make the Tiled map file. If you don't do this, the map
+will not load in game! This is usually the next step you'd want to take
 anyways as you can only set tiles and collision in Tiled.
 
-Open Tiled. A template file for maps can be found in the game’s maps
+Open Tiled. A template file for maps can be found in the game's maps
 folder, titled ``map00_Template_32x32.json``. It is highly recommended
-to use this file as a base for your own map, but if you’re interested in
+to use this file as a base for your own map, but if you're interested in
 learning how to create the maps from scratch a Youtube tutorial can be
 found `here <https://www.youtube.com/watch?v=jsTH5DHw-g0>`__. To use the
 file as a base, open it then go to ``File>Save As...`` at the top left
 menu. You will want the save the map as map[id], in the maps folder. For
-example, using the map in the previously shown image, the map’s name
+example, using the map in the previously shown image, the map's name
 would be ``map516.json``. It is important that you save the map in the
 maps folder and not the data folder. The data folder contains the map
 data from RPG Maker and not Tiled!
 
 The template map comes with layers and properties already prepared for
-you. They’re even labeled! All you have to do to use it now is resize
+you. They're even labeled! All you have to do to use it now is resize
 the map, which you can do by going to ``Map>Resize Map...`` on the top
 left menu. You should change the width and height to the one of your own
-map’s. Again following the previous image example, the width and height
+map's. Again following the previous image example, the width and height
 would both be 40.
 
 Map and Data Editing
@@ -108,8 +108,8 @@ Map and Data Editing
 In Tiled
 ~~~~~~~~
 
-Tiling/Map editing in Tiled is rather simple, but you’re confused on the
-basics, you can find a YouTube guide here. Here’s just some core things
+Tiling/Map editing in Tiled is rather simple, but you're confused on the
+basics, you can find a YouTube guide here. Here's just some core things
 to remember:
 
 Layers
@@ -121,7 +121,7 @@ layer levels! Layers labeled ``GROUND`` will appear below the player
 character, layers labeled ``SAME AS CHARACTER`` will appear on the same
 level as the player character and above the ground layers, and layers
 labeled with ``ABOVE ALL`` will appear above the player character and
-all other layers. (It’s important to note that usually level objects
+all other layers. (It's important to note that usually level objects
 such as chairs and tables are actually put on the ground layer, but with
 collision tiles on top to prevent character movement through them)
 
@@ -129,12 +129,12 @@ Collision
 ^^^^^^^^^
 
 There is a tile based collision system in Tiled that Omori uses, using
-the tileset ``TileCollision_32x32.json`` found in the “maps” folder. If
-the tileset doesn’t appear in the tilesets tab, then open the file in a
+the tileset ``TileCollision_32x32.json`` found in the "maps" folder. If
+the tileset doesn't appear in the tilesets tab, then open the file in a
 separate tab and it should appear. The tiles for collision must be put
-on the ``COLLISION`` layer or else they won’t work! The layer isn’t
-visible in game so don’t worry. The red tile in the tileset, found at
-the top left is for spaces that can’t be passed through in any
+on the ``COLLISION`` layer or else they won't work! The layer isn't
+visible in game so don't worry. The red tile in the tileset, found at
+the top left is for spaces that can't be passed through in any
 direction. This will be your go-to for most collision purposes. The
 tiles with arrows on them indicate the directions in which the tiles can
 be passed through. Any side that has a dot on them is still impassable,
@@ -151,26 +151,26 @@ tables. The different tilesets will appear as tabs that can be selected
 toward the top of the menu. They can be added for use in your own map by
 opening the tileset or a map that uses it on a separate tab or by going
 to ``Map>Add External Tileset...`` and selecting the tileset from there.
-All of Omori’s tilesets are found in the “maps” folder and are named
+All of Omori's tilesets are found in the "maps" folder and are named
 according to their use.
 
 Terrains
 ^^^^^^^^
 
 Terrains are complex tile patterns that are automated for ease of use.
-You can access Omori’s terrains by opening ``TerrainTiles.json`` on a
+You can access Omori's terrains by opening ``TerrainTiles.json`` on a
 seperate tab. To use them, you go to the bottom right side of the screen
 and switch the tab from Tilesets to Terrains. You can select the terrain
-that you want and then click and drag on the map, “blocking in” the
+that you want and then click and drag on the map, "blocking in" the
 shapes. Terrains make placing commonly used cliffs and walls incredibly
-easy so it’s recommended to use them for this purpose.
+easy so it's recommended to use them for this purpose.
 
 Regions
 ^^^^^^^
 
 Regions work similar to the collision layer but instead of prevent
 movement, tiles placed on this layer will do special things depending on
-what number “regionId” is on the Custom Properties tab. The tileset used
+what number "regionId" is on the Custom Properties tab. The tileset used
 on this layer is ``Tile_Regions_32x32.png``\ and the layer used for
 regions is labeled ``REGION`` on the template map. Here is a table of
 possible regionId values:
@@ -445,10 +445,10 @@ To Level layers
   to a different level, this is done with ``To Level - X`` layers, as
   seen here:
 | |image|
-| While the name of the layer itself doesn’t matter, the properties of
+| While the name of the layer itself doesn't matter, the properties of
   the layer do, adding a string property onto a layer and typing in
   ``level`` specifies what level this layer is, and by itself the level
-  property doesn’t do much. Going back to our ``To Level`` layer, we
+  property doesn't do much. Going back to our ``To Level`` layer, we
   want to not only add a ``level`` property, but also another string
   property ``toLevel`` after which we want to set a value to them, for
   ``To Level - 0`` (which will sent the player to level 0 when they walk
@@ -502,17 +502,17 @@ Collision Layer
   for when the player is able to walk onto the bridge. When the player
   is on level 0 and enters the map, they should be able to walk under
   the bridge no issues, but when we want the player to walk on top of
-  the bridge, we obviously don’t want the player to be able to walk off
+  the bridge, we obviously don't want the player to be able to walk off
   the bridge, so you need to change this level 1 collision layer to
   account for that.
 
-Only other thing to mention is that regions need to be level’d also,
+Only other thing to mention is that regions need to be level'd also,
 using the same properties ``level`` and ``hideOnLevel``.
 
 In RPG Maker MV
 ~~~~~~~~~~~~~~~
 
-RPG Maker MV is where you can change things such as the map’s music,
+RPG Maker MV is where you can change things such as the map's music,
 background, and most importantly, the events on the map, including
 flavor text. Note that the Tiled map will not appear on the software
 normally, so most maps will appear almost invisible. All of the tiles on
@@ -525,7 +525,7 @@ object such as a chair.
 Showing Tiled Maps in RPG Maker
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you’re struggling to grasp the connection between Tiled and RPG Maker
+If you're struggling to grasp the connection between Tiled and RPG Maker
 you can export the tiled map as an image by setting the zoom in Tiled to
 150% at the bottom right, then going to ``File>Export As Image...``.
 Save the image to ``img/parallaxes``, only checking the specific options
@@ -538,7 +538,7 @@ shown on the image below.
    tiledexport
 
 You will now be able to change the parallax to the Tiled map on RPG
-Maker’s map settings menu, which can be accessed by either right
+Maker's map settings menu, which can be accessed by either right
 clicking the target map or by hitting the space key with the map
 selected. The map should now appear, making Event placement
 significantly easier!
@@ -559,9 +559,9 @@ is what the menu should look like when you create or edit and event.
 
    eventmenu
 
-A detailed guide on what can be done in RPG Maker’s event menu will be
+A detailed guide on what can be done in RPG Maker's event menu will be
 created later. For now, I would recommend going onto YouTube for
-tutorials on RPG Maker MV’s event system!
+tutorials on RPG Maker MV's event system!
 
 .. |image| image:: https://user-images.githubusercontent.com/104705517/218759587-662237b7-43cd-4f6c-babe-c1c3a12315ba.png
 .. |image1| image:: https://user-images.githubusercontent.com/104705517/218760874-2d696616-c235-48ec-a95f-0ff239eccdf7.png

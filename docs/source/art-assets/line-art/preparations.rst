@@ -9,7 +9,7 @@ Depending on the type of sprite being made, you should be aware of the
 great detail for only it to be cropped off or be too small. This can be
 found in the Art Specifications page.
 
-{% content-ref url=“../intro-to-art-assets/art-specifications.md” %}
+{% content-ref url="../intro-to-art-assets/art-specifications.md" %}
 `art-specifications.md <../intro-to-art-assets/art-specifications.md>`__
 {% endcontent-ref %}
 
@@ -22,7 +22,7 @@ over.
 Advantage:
 ^^^^^^^^^^
 
-- Increase cleanliness of the final product, as it’s direct trace over
+- Increase cleanliness of the final product, as it's direct trace over
 - Effective for sprites involving multiple frames in similar position,
   like majority of enemy sprites or static mirror sprites.
 
@@ -34,9 +34,9 @@ Disadvantage:
 Digital
 -------
 
-If you are already drawing directly on digital, then there isn’t really
+If you are already drawing directly on digital, then there isn't really
 any fancy step to take here. Though determining the final resolution
-becomes extra important, as it’s going to carry over up to the final
+becomes extra important, as it's going to carry over up to the final
 product.
 
 One important tip is to **draw larger** than needed. **Double** the

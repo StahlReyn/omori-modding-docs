@@ -113,7 +113,7 @@ Displays the Lightbulb bubble that shows the quest is still Finished.
 
    <p>
 
-Alternative: this.setEventIcon(eventid, ‘quest’, index);
+Alternative: this.setEventIcon(eventid, ‘quest', index);
 
 .. raw:: html
 
@@ -379,13 +379,13 @@ Plays Sound: SYS_quest_complete
 
    </table>
 
-Example - LEAFY’s Quest
+Example - LEAFY's Quest
 -----------------------
 
-For bubble, set the Variable 16 “Quest Balloon ID” to the event ID that
+For bubble, set the Variable 16 "Quest Balloon ID" to the event ID that
 you want the bubble to be over.
 
-Example used here is LEAFY’s Quest in Map 105 – TRAIN STATION WAITING
+Example used here is LEAFY's Quest in Map 105 – TRAIN STATION WAITING
 AREA, Event 5 at 14,38. The event has ID of 5, so the variable is set to
 5 accordingly to be used in other Event
 
@@ -401,7 +401,7 @@ AREA, Event 5 at 14,38. The event has ID of 5, so the variable is set to
 
    <p>
 
-The starting events of LEAFY’s Quest
+The starting events of LEAFY's Quest
 
 .. raw:: html
 
@@ -433,7 +433,7 @@ The starting events of LEAFY’s Quest
 
    <p>
 
-LEAFY’s Initial quest Accept later on.
+LEAFY's Initial quest Accept later on.
 
 .. raw:: html
 
@@ -450,15 +450,15 @@ LEAFY’s Initial quest Accept later on.
 - \ **Control Switches : #1661:**\  Any switch to keep track for using
   in other events
 - \ **Control Variables : #16:**\  to set Event ID, in this case LEAFY
-  event is 5. (Technically redundant here as it’s set already before at
+  event is 5. (Technically redundant here as it's set already before at
   start, but for good measure.)
 - \ **Common Event : – Quest Accept:**\  Plays Quest accept sound
 - \ **Common Event : ★ Display Quest Finish:**\  Quest is finished, in
-  this case it’s in case player already has slain 5 bunnies before
+  this case it's in case player already has slain 5 bunnies before
   interacting with LEAFY.
 - \ **Common Event : ★ Display Ongoing Quest:**\  Quest is Ongoing, the
   usual if the player has not finished yet, so therefore quest is still
   going on
 - \ **Control Self Switch : A:**\  To toggle own event to another page,
-  which in LEAFY’s case cuts off intro and throws to more quest loop to
+  which in LEAFY's case cuts off intro and throws to more quest loop to
   kill more bunnies.

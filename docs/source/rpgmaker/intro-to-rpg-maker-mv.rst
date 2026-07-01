@@ -56,14 +56,14 @@ RPG Maker MV project window, annotated
    </figure>
 
 Most of the buttons can be used for Omori modding, but the tools that
-aren’t highlighted are either not required or don’t work for an Omori
+aren't highlighted are either not required or don't work for an Omori
 project.
 
 Map Event Editor
 ~~~~~~~~~~~~~~~~
 
 Found in the center of the screen, the Map Event Editor is where map
-events can be edited, and it takes up the majority of RPG Maker MV’s
+events can be edited, and it takes up the majority of RPG Maker MV's
 interface. It is tile based, and events can be selected, edited, or
 created by clicking, double-clicking, and right-clicking the respective
 tiles.
@@ -123,7 +123,7 @@ The Database window of RPG Maker MV.
 
    </figure>
 
-Each tab has its own smaller windows, but they’re labaled and should be
+Each tab has its own smaller windows, but they're labaled and should be
 easy to navigate.
 
 Playtest
@@ -139,7 +139,7 @@ Map Selector
 At the bottom left and highlighted in blue on the diagram, the Map
 Selector shows a list of all created maps. Here, you can create new maps
 by right-clicking or pressing the enter key, and select maps by
-left-clicking normally. The new map’s events will then appear on the Map
+left-clicking normally. The new map's events will then appear on the Map
 Event Editor.
 
 Map and Event Details
@@ -231,7 +231,7 @@ In-Depth RPG Maker MV Tutorial
 
    <td>
 
-Note: Things like sample maps and tiling/tilesets don’t apply to OMORI
+Note: Things like sample maps and tiling/tilesets don't apply to OMORI
 projects
 
 .. raw:: html

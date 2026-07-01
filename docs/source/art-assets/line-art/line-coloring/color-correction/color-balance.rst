@@ -11,7 +11,7 @@ TBA
 This method uses color balance correction to add color to the monochrome
 sketch.
 
-{% tabs %} {% tab title=“Clip Studio Paint” %}
+{% tabs %} {% tab title="Clip Studio Paint" %}
 
 .. raw:: html
 
@@ -31,6 +31,6 @@ sketch.
 
 {% endtab %}
 
-{% tab title=“Second Tab” %}
+{% tab title="Second Tab" %}
 
 {% endtab %} {% endtabs %}

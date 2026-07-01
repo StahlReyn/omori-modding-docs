@@ -6,7 +6,7 @@ TBA
 This method uses tone curve correction to add color to the monochrome
 sketch.
 
-{% tabs %} {% tab title=“Clip Studio Paint” %} TBA
+{% tabs %} {% tab title="Clip Studio Paint" %} TBA
 
 .. raw:: html
 
@@ -26,6 +26,6 @@ sketch.
 
 {% endtab %}
 
-{% tab title=“Second Tab” %}
+{% tab title="Second Tab" %}
 
 {% endtab %} {% endtabs %}

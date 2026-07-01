@@ -5,7 +5,7 @@ Overview
 --------
 
 In majority of Omori art pieces, the lines are colored. Headspace
-portraits for example contains black-blue and bits of magenta in it’s
+portraits for example contains black-blue and bits of magenta in it's
 coloring. Occasionally some bits of green too like in headspace tag
 pictures.
 
@@ -40,7 +40,7 @@ tweaked. Credit: ReynStahl
 
    </figure>
 
-{% hint style=“info” %} It is good to note that even in Omori, the
+{% hint style="info" %} It is good to note that even in Omori, the
 filtering color is **inconsistent**. Especially in **enemy sprites**,
 where line color are `more dependent on overall composition than just
 being blue. <#user-content-fn-1>`__\  [1]_ {% endhint %}
@@ -291,4 +291,4 @@ color-correction
    </table>
 
 .. [1]
-   For example, Perfectheart sprite’s line art being mostly thick red.
+   For example, Perfectheart sprite's line art being mostly thick red.

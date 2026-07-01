@@ -264,7 +264,7 @@ Additional Resources
 
 .. toctree::
    :hidden:
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 🚩 Getting Started
    
    getting-started/installing-mods
@@ -284,7 +284,7 @@ Additional Resources
 
 .. toctree::
    :hidden:
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 🏰 RPG Maker MV
 
    rpgmaker/intro-to-rpg-maker-mv
@@ -312,7 +312,7 @@ Additional Resources
 
 .. toctree::
    :hidden:
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 🎨 Art Assets
 
    art-assets/intro-to-art-assets/README

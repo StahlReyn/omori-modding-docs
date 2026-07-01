@@ -4,7 +4,7 @@ Text Codes
 RPG Maker MV Text Codes
 -----------------------
 
-RPG Maker MV comes with text codes on it’s own, being the following:
+RPG Maker MV comes with text codes on it's own, being the following:
 
 .. raw:: html
 
@@ -505,7 +505,7 @@ Do not wait for input after displaying the next.
 
 *Credit: Yanfly.moe Wiki*
 
-{% hint style=“info” %} Beware of the slashes! Text code uses
+{% hint style="info" %} Beware of the slashes! Text code uses
 backslashes (\\) not normal slashes (/). {% endhint %}
 
 TDS Text Effects
@@ -684,7 +684,7 @@ Archeia Text Codes
 ------------------
 
 In the following the most used are common event text code. For example,
-to call shake screen common event. There are other codes but it isn’t
+to call shake screen common event. There are other codes but it isn't
 used at all in Omori
 
 .. raw:: html
@@ -767,7 +767,7 @@ Invokes the common event of ID n
 
    </table>
 
-{% hint style=“info” %} Fun fact: Text Codes can be invoked when set as
+{% hint style="info" %} Fun fact: Text Codes can be invoked when set as
 character name and the name is trying to be called. {% endhint %}
 
 Useful Resources

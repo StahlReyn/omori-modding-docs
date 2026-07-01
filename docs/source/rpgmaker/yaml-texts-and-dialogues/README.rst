@@ -204,7 +204,7 @@ Display Basic Message
 To display a message, create a Plugin Command block and enter the
 following:
 
-{% code title=“Show Message Format” %}
+{% code title="Show Message Format" %}
 
 ::
 
@@ -226,7 +226,7 @@ Example Code
 
    </summary>
 
-{% code title=“Example” %}
+{% code title="Example" %}
 
 ::
 
@@ -238,7 +238,7 @@ Example Code
 
    </details>
 
-{% hint style=“info” %} Despite Omori dialogue almost always using the
+{% hint style="info" %} Despite Omori dialogue almost always using the
 ``message_x`` naming convention, other name can be given as well. {%
 endhint %}
 
@@ -281,7 +281,7 @@ Example in RPG Maker MV Event Screen
 *TBA: ShowChoices jank with numbers, default selection when pressing
 escape*
 
-{% hint style=“info” %} The choice plugin is done in the
+{% hint style="info" %} The choice plugin is done in the
 ``Text_Language_Processor.js`` plugin file made by TDS. {% endhint %}
 
 YAML Formatting
@@ -295,20 +295,20 @@ Omori has main 2 ways of displaying names:
 **Shortcut macro:** This is a plugin parameter done in
 ``YEP_X_MessageMacros1.js`` plugin, that is replaced with the name.
 
-{% hint style=“info” %} Benefit with shortening names of reoccurring
+{% hint style="info" %} Benefit with shortening names of reoccurring
 characters and also ease of potentially mass-changing names later. {%
 endhint %}
 
 **Direct name:** Add ``\n<NAME>`` directly on the text field
 
-{% hint style=“info” %} Benefit of being easy to implement, increases
+{% hint style="info" %} Benefit of being easy to implement, increases
 readability from being direct, and good for one off side characters. {%
 endhint %}
 
 Dialogue only
 ~~~~~~~~~~~~~
 
-{% code title=“Dialogue only example” %}
+{% code title="Dialogue only example" %}
 
 .. code:: yaml
 
@@ -329,7 +329,7 @@ left as 0.
 
 ``text:`` The text displayed
 
-{% code title=“Dialogue with Portrait Exampleeee” %}
+{% code title="Dialogue with Portrait Exampleeee" %}
 
 .. code:: yaml
 
@@ -340,7 +340,7 @@ left as 0.
 
 {% endcode %}
 
-{% hint style=“info” %} In this case ``\bas`` is a shorthand command to
+{% hint style="info" %} In this case ``\bas`` is a shorthand command to
 show BASIL name, which is hard coded. This is the case for most primary
 characters as well. This is part of text codes. {% endhint %}
 
@@ -351,7 +351,7 @@ Battle dialogue tends to have the character name inside the text box
 itself due to smaller size. This can be done with ``>`` with newline of
 ``\>NAME: \<`` at the start.
 
-{% code title=“Battle Dialogue Example” %}
+{% code title="Battle Dialogue Example" %}
 
 .. code:: yaml
 

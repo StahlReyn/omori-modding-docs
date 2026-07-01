@@ -10,7 +10,7 @@ on paper; then scanned back to digital. This style may be time consuming
 and roundabout, but there are alternative ways to replicate it quite
 near.
 
-{% embed url=“https://twitter.com/OMORI_GAME/status/1190751960233914372”
+{% embed url="https://twitter.com/OMORI_GAME/status/1190751960233914372"
 %} Official Omori Twitter account on the drawing process. {% endembed %}
 
 The drawn style applies to multiple sprite types, like enemy sprites,

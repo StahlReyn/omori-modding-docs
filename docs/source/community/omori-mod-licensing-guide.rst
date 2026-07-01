@@ -16,7 +16,7 @@ This is an example of what you will see on the bottom of every mod page:
 
 AI-generated content may be incorrect.](../.gitbook/assets/0.png)
 
-In basic terms, that means you are free to use the mod’s original assets
+In basic terms, that means you are free to use the mod's original assets
 in any medium or format if you give proper credit, do not use it for
 commercial purposes, and do not distribute any modified material. Note
 that these terms are *not exhaustive* and certain exemptions may apply,
@@ -28,20 +28,20 @@ mods are open source by nature. That means anyone can technically openly
 access the files and assets. Having this mutual respect goes a long way
 in communities like this one. Gross violation may result in your mod
 page being taken down and your project being subsequently parodied by
-someone else (not that that’s ever happened :3)
+someone else (not that that's ever happened :3)
 
 In normal cases though, if you get expressed permission from the
 creator, and you agree to credit them most will be cool with you doing
 what you want.
 
 Conversely, not taking the time to set up a proper license may lead to
-conflict or confusion down the line. So, it’s worth taking a bit of time
+conflict or confusion down the line. So, it's worth taking a bit of time
 to set up if this sounds like something worth looking into!
 
 Adding a License
 ~~~~~~~~~~~~~~~~
 
-Open your mod page editor and click on “License, Security, Removal:”![A
+Open your mod page editor and click on "License, Security, Removal:"![A
 screenshot of a computer program
 
 AI-generated content may be incorrect.](../.gitbook/assets/1.png)

@@ -5,7 +5,7 @@ Image Folder
 ------------
 
 Each folder contains a series of image files, usually in a ``png``
-format, that each serve the purpose indicated by the folder’s name.
+format, that each serve the purpose indicated by the folder's name.
 
 Under ``img`` you should find the following folders:
 
@@ -383,7 +383,7 @@ system
 
    <td>
 
-Images that form the game’s user interface
+Images that form the game's user interface
 
 .. raw:: html
 

@@ -2,7 +2,7 @@ Data Files
 ==========
 
 **Disclaimer:** This is a very early-stage list. Files may contain more
-important data than mentioned here, so you’re more than welcome to
+important data than mentioned here, so you're more than welcome to
 contribute details via the `mods.one
 Discord <https://discord.gg/Rxr5QfQnFd>`__.
 
@@ -70,7 +70,7 @@ MapXXX.json
 
 Map files describe all places and rooms in OMORI. *displayName*: This
 field will be used when creating or overwriting a save file. *todo,
-there’s a LOT more about these files* For anything that goes beyond
+there's a LOT more about these files* For anything that goes beyond
 small modifications, you definitely want to use RPG Maker: `Mapping in
 OMORI using RPG Maker. <https://omori.wiki.mods.one/modding:mapping>`__
 
@@ -104,7 +104,7 @@ States.json
 State change names (emotions, dying, resurrection etc.), descriptions,
 and properties.
 
-**Examples:** “X became TOAST!”, “X feels ECSTATIC!”, “X’s SPEED fell!”
+**Examples:** "X became TOAST!", "X feels ECSTATIC!", "X's SPEED fell!"
 
 System.json 
 ^^^^^^^^^^^^
@@ -131,10 +131,10 @@ Weapon names, descriptions, and other properties.
 Conflicted copies 
 ^^^^^^^^^^^^^^^^^^
 
-Typically named *[…] OMORI Dev’s conflicted copy […].json*
+Typically named *[…] OMORI Dev's conflicted copy […].json*
 
 These files are most likely unused and left there by accident.
 
-{% hint style=“info” %} In later versions of OMORI, these file are
+{% hint style="info" %} In later versions of OMORI, these file are
 removed since then. This might be important to old mods when using
 Bundletool to detect changes. {% endhint %}

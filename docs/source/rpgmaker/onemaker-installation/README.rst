@@ -13,11 +13,11 @@ Features:
 - Conditional Branches can now use check Self Variables, you also get
   access to Control Self Variable event commands.
 - Map image files in the ``render`` folder will now automatically be
-  displayed onto maps, using a stretch format so they don’t have to be
-  resized to match MV’s 48x48 tile sizes.
+  displayed onto maps, using a stretch format so they don't have to be
+  resized to match MV's 48x48 tile sizes.
 - Event Block Selection screen can be made into one giant tab instead of
   having three tabs.
-- The Show Text command is now formatted correctly to fit OMORI’s face
+- The Show Text command is now formatted correctly to fit OMORI's face
   images. Comments and Script Commands can now have way more lines.
 
 .. raw:: html
@@ -50,7 +50,7 @@ You may need to disable antivirus if you are choosing to run the .bat.
 Do not worry, as this is a safe file developed by a trusted source.
 
 Some features are disabled until a compatibility plugin is added to the
-Plugin Manager (“puzzle” icon in the top bar.) `Download
+Plugin Manager ("puzzle" icon in the top bar.) `Download
 this, <https://github.com/FoGsesipod/OneMaker-MV/releases/download/1.2.2/Plugins.7z>`__
 and then extract the zip. Copy the js plugin into the ``js/plugins/``
 folder, and add it through the plugin manager at the top.

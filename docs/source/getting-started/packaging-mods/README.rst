@@ -7,18 +7,18 @@ run.*
 Using Bundletool
 ----------------
 
-{% embed url=“https://mods.one/mod/bt” %} Link to BundleTool on mods.one
+{% embed url="https://mods.one/mod/bt" %} Link to BundleTool on mods.one
 {% endembed %}
 
-After editing the game’s data and assets from the “www_decrypt_xxxxxx”
-or “www_playtest_xxxxxx” folder, you can package your mod into a zip for
+After editing the game's data and assets from the "www_decrypt_xxxxxx"
+or "www_playtest_xxxxxx" folder, you can package your mod into a zip for
 use by running `Bundletool <https://mods.one/mod/bt>`__. It is installed
 the same way other mods are installed. After installing, run the game
 and follow the on-screen prompts to properly package your mod.
 
 1. Drag Bundletool zip file to the mods folder, `like how you install
    mods. <../installing-mods.md>`__
-2. Run OMORI; Click “Use BundleTool”
+2. Run OMORI; Click "Use BundleTool"
 3. Select folder of the mod you want to package. This is likely a folder
    named ``www_decrypt`` or ``www_playtest`` or similar
 4. Enter mod details. Mod ID should ideally align with the mod ID you
@@ -26,15 +26,15 @@ and follow the on-screen prompts to properly package your mod.
 5. Select the files need changing. (Tip: Pressing the top header will
    select all for that category)
 
-   1. **Ignore** means don’t include the file in the package. This can
-      be used to ignore some plugins only used in testing and don’t want
+   1. **Ignore** means don't include the file in the package. This can
+      be used to ignore some plugins only used in testing and don't want
       to appear in final product. For example: console, quick save and
       load, or better saves.
    2. **Delta** means only includes the changes, and does not replace
       it. This is good for compatibility, especially if the mod only
-      changes small amount of things and don’t want to replace entire
+      changes small amount of things and don't want to replace entire
       file (which would break compatibility). For example, small single
-      changes to some Skills in ``skills.json``, as you don’t need to
+      changes to some Skills in ``skills.json``, as you don't need to
       replace everything, just change only one specific thing.
    3. **Include** means add the file to the package, this totally
       replaces the files. This is commonly for audio and image files, as
@@ -48,12 +48,12 @@ and follow the on-screen prompts to properly package your mod.
 6. Wait for the bundle process to finish. This can take a few minutes
    especially for bigger mods.
 7. Select the location for where the final export will be.
-8. You’re finished!
+8. You're finished!
 
 Delta or Include?
 -----------------
 
-Sometime it gets confusing whether to do Delta or full Include. Here’s a
+Sometime it gets confusing whether to do Delta or full Include. Here's a
 common rough use case for these, though this is a rough guideline, not
 strictly a rule.
 
@@ -222,7 +222,7 @@ Omori font to be altered to include special character.
 
    <td>
 
-If font is being changed at all, it’s likely full include.
+If font is being changed at all, it's likely full include.
 
 .. raw:: html
 
@@ -250,7 +250,7 @@ Icon
 
    <td>
 
-Likely won’t appear in most mod as it remains unchanged.
+Likely won't appear in most mod as it remains unchanged.
 
 .. raw:: html
 
@@ -260,7 +260,7 @@ Likely won’t appear in most mod as it remains unchanged.
 
    <td>
 
-If icon is being changed at all, it’s likely full include.
+If icon is being changed at all, it's likely full include.
 
 .. raw:: html
 
@@ -329,7 +329,7 @@ Languages
 
    <td>
 
-Likely won’t appear in most mod as it remains unchanged.
+Likely won't appear in most mod as it remains unchanged.
 
 .. raw:: html
 
@@ -339,7 +339,7 @@ Likely won’t appear in most mod as it remains unchanged.
 
    <td>
 
-Likely won’t appear in most mod as it remains unchanged.
+Likely won't appear in most mod as it remains unchanged.
 
 .. raw:: html
 
@@ -501,7 +501,7 @@ Bundletool Screen Examples
 
       <p>
 
-   The start up screen; click “use Bundletool”
+   The start up screen; click "use Bundletool"
 
    .. raw:: html
 

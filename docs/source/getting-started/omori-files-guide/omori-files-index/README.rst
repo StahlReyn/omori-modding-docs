@@ -8,17 +8,17 @@ OMORI on your ``C:`` drive with Steam.
 
 Useful page when working with OMORI files:
 
-{% content-ref url=“../common-file-types.md” %}
+{% content-ref url="../common-file-types.md" %}
 `common-file-types.md <../common-file-types.md>`__ {% endcontent-ref %}
 
 data/ 
 ~~~~~~
 
-This is a directory with encrypted files that’s 100% identical with
+This is a directory with encrypted files that's 100% identical with
 *www/data*. The reason for this clone is not known, but you can probably
 ignore it.
 
-{% content-ref url=“data-files.md” %} `data-files.md <data-files.md>`__
+{% content-ref url="data-files.md" %} `data-files.md <data-files.md>`__
 {% endcontent-ref %}
 
 locales/ 
@@ -50,7 +50,7 @@ www/
 | To inspect and modify these files, you need to
   `decrypt <https://omori.wiki.mods.one/modding:getting_started#decrypting_the_game>`__
   them, which will create a directory like *www_decrypt_abcd1234*, which
-  has the same structure as *www*, but with all files decrypted. We’ll
+  has the same structure as *www*, but with all files decrypted. We'll
   be referring to this directory as *www_decrypt* for simplicity.
 
 www_decrypt/ 
@@ -85,7 +85,7 @@ fonts/
 *Important for Translation*
 
 | Contains the fonts used by the game.
-| If you’re making a translation mod, you might need to modify the font
+| If you're making a translation mod, you might need to modify the font
   files to support characters that might be missing from the original
   font, like ä, á, ß and more.
 | Contents and details:
@@ -95,7 +95,7 @@ icon/
 ^^^^^^
 
 Contains a single *icon.png*. This file is used by *package.json* as
-data for NW.js. Maybe it’s the icon in the window title bar in the top
+data for NW.js. Maybe it's the icon in the window title bar in the top
 left.
 
 img/ 
@@ -110,7 +110,7 @@ img/
 js/ 
 ^^^^
 
-Contains the game’s code.
+Contains the game's code.
 
 - libs/
 
@@ -124,8 +124,8 @@ Contains the game’s code.
     (T) 
 
   - Contains all the plugins in the game, which seems to be all the code
-    that OMORI has that’s not part of core RPG Maker MV. They are less
-    “plugins” in a conventional sense, and more like normal JavaScript
+    that OMORI has that's not part of core RPG Maker MV. They are less
+    "plugins" in a conventional sense, and more like normal JavaScript
     files that overwrite or extend existing classes and functions.
   - For translation projects, these files contain certain UI and battle
     text.
@@ -140,13 +140,13 @@ Contains the game’s code.
 
 - plugins.js
 
-  - Plugin map generated through RPG Maker. Don’t edit this file,
+  - Plugin map generated through RPG Maker. Don't edit this file,
     OneLoader manages this when you develop mods.
 
 - rpg\_[…].js
 
-  - RPG Maker runtime files. Don’t touch these unless you know what
-    you’re doing.
+  - RPG Maker runtime files. Don't touch these unless you know what
+    you're doing.
 
 languages/ 
 ^^^^^^^^^^^
@@ -154,7 +154,7 @@ languages/
 *Important for Translation*
 
 | Contains the different languages the game natively supports. As of now
-  (OMORI v1.0.8), there’s only the normal English files, and a single
+  (OMORI v1.0.8), there's only the normal English files, and a single
   file for an upcoming official Japanese translation (Omocat tweeted a
   long time ago about it).
 | For translation projects, YAML files get patched on top of the *en*
@@ -197,10 +197,10 @@ index.html
 Entry point for the game. OMORI uses RPG Maker MV, which in turn uses
 NW.js, which uses a web browser for the graphics. This HTML file loads
 all the assets, core libraries, plugins, and finally the start script
-for the game (main.js). This file, and by extension, the game, doesn’t
+for the game (main.js). This file, and by extension, the game, doesn't
 work in a normal browser like Google Chrome out of the box, because the
-game is using NW.js APIs that don’t exist there. There have been
-successful attempts at running OMORI in a normal browser which we won’t
+game is using NW.js APIs that don't exist there. There have been
+successful attempts at running OMORI in a normal browser which we won't
 go into detail about here.
 
 package.json 
@@ -212,7 +212,7 @@ the window title, icon, CLI arguments, and file to load (index.html).
 steam_appid.txt 
 ^^^^^^^^^^^^^^^^
 
-Contain’s the game’s ID on Steam. This can tell Steam which game you’re
+Contain's the game's ID on Steam. This can tell Steam which game you're
 playing (shown in friends list), and is also used for
 `DRM <https://en.wikipedia.org/wiki/Digital_rights_management>`__ checks
 in other games (not in OMORI).

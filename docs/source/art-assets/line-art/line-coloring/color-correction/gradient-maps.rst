@@ -5,7 +5,7 @@ TBA
 
 This method uses gradient mapping to add color on final line art.
 
-{% tabs %} {% tab title=“Photoshop” %}
+{% tabs %} {% tab title="Photoshop" %}
 
 .. raw:: html
 

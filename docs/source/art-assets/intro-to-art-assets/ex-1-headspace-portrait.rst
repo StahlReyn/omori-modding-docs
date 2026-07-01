@@ -4,7 +4,7 @@ Ex 1: Headspace Portrait
 Intro
 -----
 
-For this we’ll be attempting to recreate Basil’s portrait as close to
+For this we'll be attempting to recreate Basil's portrait as close to
 the original as possible.
 
 This example is done in **Clip Studio Paint**. Though this is also
@@ -74,7 +74,7 @@ Line Art
 
 For this example, the image is drawn at **512x512**, far larger than
 game sprite of 106x106. This is so the specific brush detail will be
-“averaged out” later when sized smaller, and allow for more leeway of
+"averaged out" later when sized smaller, and allow for more leeway of
 wobbliness.
 
 Line width is estimated by just sizing the original to also 512x512 and
@@ -122,7 +122,7 @@ Resized slightly smaller at 8% opacity.
 Line Coloring
 -------------
 
-For coloring, **tone curve** will be used as it’s simple but still gives
+For coloring, **tone curve** will be used as it's simple but still gives
 enough control over specific values. 
 
 Taking a look at original sprite, notice that the darkest value remains
@@ -164,7 +164,7 @@ used.
 More info can be found `here on Tonal Correction
 Effects <https://help.clip-studio.com/en-us/manual_en/390_filters/Tonal_Correction_Effects.htm#1364001>`__.
 
-{% tabs %} {% tab title=“RGB” %} **RGB** Channel can be thought of in
+{% tabs %} {% tab title="RGB" %} **RGB** Channel can be thought of in
 this case as brightness value. Being 0 = Black to 255 = White.
 
 For this, dark value is made **darker** to make the black values pop
@@ -194,7 +194,7 @@ right side.
 
 {% endtab %}
 
-{% tab title=“Red” %} In this case, the **red** curve is pushed down on
+{% tab title="Red" %} In this case, the **red** curve is pushed down on
 the left, making darker value more **cyan**, with it being opposite of
 red on light color wheel.
 
@@ -226,7 +226,7 @@ Red Channel
 
 {% endtab %}
 
-{% tab title=“Blue” %} The **blue** channel is heavily pushed up to give
+{% tab title="Blue" %} The **blue** channel is heavily pushed up to give
 a strong blue color on line art. The point still pass at 0,0 as we still
 want dark **black** values to be retained.
 
@@ -258,7 +258,7 @@ Blue Channel
 
 {% endtab %}
 
-{% tab title=“Green” %} In this case, the **green** curve is pushed down
+{% tab title="Green" %} In this case, the **green** curve is pushed down
 on the left, making darker value more **magenta**, with it being
 opposite of red on light color wheel. 
 
@@ -354,7 +354,7 @@ wand** or **fill tool** with transparent value both works.
 
       </figure>
 
-{% hint style=“info” %} Sometimes there may be issue with selection
+{% hint style="info" %} Sometimes there may be issue with selection
 fill, it may be good idea to increase contrast or remove the texture
 layer temporarily first.
 
@@ -364,7 +364,7 @@ mode. {% endhint %}
 Chromatic Aberration (Optional)
 -------------------------------
 
-Curiously, in Basil’s portrait sprite and some other headspace sprites
+Curiously, in Basil's portrait sprite and some other headspace sprites
 there seems to be slight amount of chromatic aberration. In this case
 can be seen by slight magenta shade above lines and cyan shade below.
 
@@ -463,7 +463,7 @@ Sprite now resized to 106x106
 
    </figure>
 
-{% hint style=“info” %} From this point on it might be good idea to do
+{% hint style="info" %} From this point on it might be good idea to do
 the steps in mass after making multiple sprites already, to avoid taking
 time to individually resize everytime. {% endhint %}
 
@@ -475,7 +475,7 @@ have strange white border around the lines. This is a result from
 sharpen effect.
 
 Sharpen is used to make the image less blurry making lines more defined.
-In this case the “blur” is due to resizing.
+In this case the "blur" is due to resizing.
 
 .. raw:: html
 
@@ -570,7 +570,7 @@ To save time on making multiple face, a faceless head template could be
 made, and have the face variants be added on top later.
 
 Older Omori sprites are all redrawn entirely for every frame, but for
-more newer sprites, like Basil’s battle portraits for console content,
+more newer sprites, like Basil's battle portraits for console content,
 the face are split.
 
 .. raw:: html
@@ -585,7 +585,7 @@ the face are split.
 
    <p>
 
-Basil’s sprite in Nucleus Art Gallery
+Basil's sprite in Nucleus Art Gallery
 
 .. raw:: html
 
