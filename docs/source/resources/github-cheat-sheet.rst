@@ -1,3 +1,10 @@
+Github Cheat Sheet
+=========================
+
+.. note::
+  
+  This is a port over from the original Google Docs made by ReynStahl.
+  
 Github Desktop App
 ~~~~~~~~~~~~~~~~~~
 
@@ -10,6 +17,28 @@ Common Github Commands
 
 `A list of commonly used Git
 commands <https://github.com/joshnh/Git-Commands>`__
+
+Basic Committing
+~~~~~~~~~~~~~~~~
+
+========================= ================================
+git add .                 Adds the files
+========================= ================================
+git commit -m “[message]” Commit and add a message
+git push                  Push changes into the repository
+========================= ================================
+
+Resetting
+~~~~~~~~~
+
+.. danger::
+
+    Be careful with this, this may cause some irreversible changes.
+
+| `How To Undo Last Git Commit –
+  devconnected <https://devconnected.com/how-to-undo-last-git-commit/#Mixed_reset_Git_commit>`__
+| `git - How can I remove a commit on GitHub? - Stack
+  Overflow <https://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github>`__
 
 +-----------------------------------+-----------------------------------+
 | Command                           | Description                       |
@@ -24,26 +53,6 @@ commands <https://github.com/joshnh/Git-Commands>`__
 | git push --force                  | Force push =, even with missing   |
 |                                   | commits                           |
 +-----------------------------------+-----------------------------------+
-
-Resetting
-~~~~~~~~~
-
-Be careful with this, this may cause some irreversible changes.
-
-| `How To Undo Last Git Commit –
-  devconnected <https://devconnected.com/how-to-undo-last-git-commit/#Mixed_reset_Git_commit>`__
-| `git - How can I remove a commit on GitHub? - Stack
-  Overflow <https://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github>`__
-
-Basic Committing
-~~~~~~~~~~~~~~~~
-
-========================= ================================
-git add .                 Adds the files
-========================= ================================
-git commit -m “[message]” Commit and add a message
-git push                  Push changes into the repository
-========================= ================================
 
 Stuck on Merge Message
 ~~~~~~~~~~~~~~~~~~~~~~

@@ -1,8 +1,12 @@
 Basic Licensing Guide (for Omori Mods and Similar Stuff)
 ========================================================
 
+.. note::
+  
+  This is a port over from the original Google Docs made by Allie.
+
 Introduction
-============
+------------
 
 Licensing is a simple and streamlined way to express what other users
 can and cannot do with your work that you publish onto mods.one. By
@@ -40,7 +44,7 @@ conflict or confusion down the line. So, it’s worth taking a bit of time
 to set up if this sounds like something worth looking into!
 
 Adding a License
-================
+----------------
 
 Open your mod page editor and click on “License, Security, Removal:”
 
@@ -61,7 +65,7 @@ the name field and detail what falls under what license in the
 description.
 
 Sample Licenses
-===============
+---------------
 
 Here are a few open licenses that you can use that have been used for
 Omori mods!

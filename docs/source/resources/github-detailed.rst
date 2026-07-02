@@ -1,8 +1,10 @@
 Basic Git/GitHub Tutorial
 =========================
 
-*Note: This is copied over from the Omori Modding Discord forum post by
-Stahl after it’s archival.*
+.. note::
+
+   This is written by Toast in the Omori Modding Discord forum post.
+   It is kept here as the server is archived.
 
 This post serves as a basic tutorial for setting up and managing a git
 repository for your project, including branching, pull requests, and

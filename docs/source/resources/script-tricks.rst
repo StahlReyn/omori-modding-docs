@@ -1,6 +1,10 @@
 OMORI Script Tricks
 =======================
 
+.. note::
+  
+  This is a port over from the original Google Docs made by ReynStahl.
+
 **Links**
 ---------
 

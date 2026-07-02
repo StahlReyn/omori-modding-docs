@@ -1,6 +1,10 @@
 OMORI Save Files
 ================
 
+.. note::
+  
+  This is a port over from the original Google Docs pinned in the Omori Discord Server by \_aureo\_.
+
 **Created by \_aureo\_ on Discord previously known as Aureo#5703**
 ------------------------------------------------------------------
 
