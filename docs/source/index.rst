@@ -276,34 +276,6 @@ Additional Resources
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: 🏰 RPG Maker MV
+   :caption: Test Tomato Fruit Docs
 
-   rpgmaker/intro-to-rpg-maker-mv
-   rpgmaker/onemaker-installation/README
-   rpgmaker/common-notetags-and-filename/README
-   rpgmaker/common-notetags-and-filename/rpg-maker-sprite-sheet-formats/README
-   rpgmaker/custom-battles/README
-   rpgmaker/map-creation
-   rpgmaker/event-plugin-commands
-   rpgmaker/yaml-texts-and-dialogues/README
-   rpgmaker/shops
-   rpgmaker/quests
-   rpgmaker/bubbles-balloons
-   rpgmaker/fps-wait-optimization
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-   :caption: 🎨 Art Assets
-
-   art-assets/intro-to-art-assets/README
-   art-assets/line-art/README
-   art-assets/line-art/line-coloring/README
-   art-assets/animated-pictures
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-   :caption: Community
-
-   community/omori-mod-licensing-guide
+   raw_output
