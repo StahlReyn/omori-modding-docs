@@ -1,7 +1,5 @@
-Common File Types
-=================
-
-Introduction
+File Types
+==========
 
 When modding OMORI, you'll encounter different file types. This page
 aims to explain the

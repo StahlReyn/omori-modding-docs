@@ -1,10 +1,13 @@
 Data Files
 ==========
 
-**Disclaimer:** This is a very early-stage list. Files may contain more
-important data than mentioned here, so you're more than welcome to
-contribute details via the `mods.one
-Discord <https://discord.gg/Rxr5QfQnFd>`__.
+.. admonition:: Disclaimer
+    :class: warning
+    
+    This is a very early-stage list. Files may contain more
+    important data than mentioned here, so you're more than welcome to
+    contribute details via the `mods.one
+    Discord <https://discord.gg/Rxr5QfQnFd>`__.
 
 This page documents useful information about
 `decrypted <https://omori.wiki.mods.one/modding:getting_started#decrypting_the_game>`__

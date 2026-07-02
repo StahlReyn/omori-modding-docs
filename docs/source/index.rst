@@ -268,15 +268,13 @@ Additional Resources
    :caption: 🚩 Getting Started
    
    getting-started/installing-mods
-   getting-started/decryption-and-playtest-generation/README
-   getting-started/packaging-mods/README
-   getting-started/omori-files-guide/README
-   getting-started/source-control-with-github/README
+   getting-started/decrypting-game
+   getting-started/packaging-mods
 
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: TomatoRadio & FruitDragon Docs [WIP]
+   :caption: 📰 TomatoRadio & FruitDragon Docs [WIP]
    
    chapters/welcome
    chapters/setup
@@ -297,7 +295,16 @@ Additional Resources
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: Resources
+   :caption: 📰 Glossary
+
+   glossary/file-types
+   glossary/data-files
+   glossary/omori-files
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: 📦 Resources
    
    resources/github-cheat-sheet
    resources/github-detailed
