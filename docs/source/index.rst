@@ -277,5 +277,19 @@ Additional Resources
    :hidden:
    :maxdepth: 1
    :caption: Test Tomato Fruit Docs
-
-   raw_output
+   
+   chapters/welcome
+   chapters/setup
+   chapters/github
+   chapters/yaml_files_dialogue
+   chapters/events
+   chapters/maps
+   chapters/sprites_and_art
+   chapters/states
+   chapters/weapons_charms
+   chapters/skills_items
+   chapters/party_members_only_the_bare_minimum_for_them
+   chapters/enemies
+   chapters/community_resources_for_mod_making
+   chapters/common_errors_other_misc_tips_wip
+   chapters/thank_you_for_reading
