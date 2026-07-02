@@ -276,7 +276,7 @@ Additional Resources
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: Test Tomato Fruit Docs
+   :caption: TomatoRadio & FruitDragon Docs [WIP]
    
    chapters/welcome
    chapters/setup
@@ -293,3 +293,14 @@ Additional Resources
    chapters/community_resources_for_mod_making
    chapters/common_errors_other_misc_tips_wip
    chapters/thank_you_for_reading
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Resources
+   
+   resources/github-cheat-sheet
+   resources/github-detailed
+   resources/licensing-guide
+   resources/script-tricks
+   resources/save-files
