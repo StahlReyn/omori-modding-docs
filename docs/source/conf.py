@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Omori Modding Guide'
+copyright = '2026, Various'
+author = 'Various, Omori Modding Community'
 
 release = '0.1'
 version = '0.1.0'
