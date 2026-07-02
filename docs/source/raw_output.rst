@@ -1,3 +1,8 @@
+
+.. image:: images/image36.png
+   :align: center
+
+
 .. _h.t3t6iqspe359:
 
 Welcome!
@@ -68,6 +73,11 @@ either of us and we’ll see if it would be good to include here.
 
 Setup
 =====
+
+
+.. image:: images/image259.png
+   :align: center
+
 
 (All Banners by TomatoRadio using Tiled for the terrain and Photopea for
 the characters and text. Sprites: Basegame, Font: Bungee)
@@ -234,6 +244,11 @@ changed when you commit to a repository. This is called a diff.
 
 Here’s an example of one:
 
+
+.. image:: images/image220.png
+   :align: center
+
+
 (Source, parallels diff, courtesy of FruitDragon)
 
 The red is the old change, the green is the new change.
@@ -261,6 +276,11 @@ for GitHub terms.
   committing to the main branch, where the majority of the code resides.
   Can also be used to save a previous version, especially if you have an
   old release you want to keep. (Such as a demo release.)
+
+
+.. image:: images/image1.png
+   :align: center
+
 
 Here’s an example of the branches in the parallels repository.
 
@@ -299,12 +319,22 @@ Install it, then open it.
 
 You’ll end up with a screen that looks something like this.
 
+
+.. image:: images/image43.png
+   :align: center
+
+
 (source: zoewillowz)
 
 Click “Sign in with GitHub.com” and log into your account. Make sure to
 click “Authorize Desktop”. Return to GitHub Desktop.
 
 Then you’ll get a screen that looks something like this.
+
+
+.. image:: images/image26.png
+   :align: center
+
 
 (source: zoewillowz)
 
@@ -322,8 +352,18 @@ fairly straightforward to make one.
 First, locate your playtest folder in your hard drive. I’ve named mine
 “repo practice”.
 
+
+.. image:: images/image261.png
+   :align: center
+
+
 Next, go to GitHub Desktop and select “Add an Existing Repository from
 your local drive… ”
+
+
+.. image:: images/image26.png
+   :align: center
+
 
 (source: zoewillowz)
 
@@ -331,14 +371,29 @@ Select your repository.
 
 You’ll get the following alert:
 
+
+.. image:: images/image247.png
+   :align: center
+
+
 Click “create a repository”.
 
 You’ll get the following window. (Your filepath will be grayed out).
 Fill it out. You don’t need to initialize a README, select a license, or
 add a Git ignore.
 
+
+.. image:: images/image50.png
+   :align: center
+
+
 Then click “Create repository”! After a while of loading, you’ll get the
 following window.
+
+
+.. image:: images/image216.png
+   :align: center
+
 
 Now all you need to do is publish this repository to GitHub, which
 enables you to share it with others and back it up. To do that, simply
@@ -360,22 +415,45 @@ repository should be a breeze.
 On the GitHub Desktop main page, click “Clone a repository from the
 Internet…”
 
+
+.. image:: images/image182.png
+   :align: center
+
+
 The following window will pop up.
+
+
+.. image:: images/image152.png
+   :align: center
+
 
 Select the repository that you want to clone from the list (if your
 GitHub account is new, the list shouldn’t be that long haha), then set
 your local path to wherever you want the folder to be and click “Clone.”
 
+
+.. image:: images/image76.png
+   :align: center
+
+
 If, for some reason, the repository is not visible in the selection
 window, open it in your browser and copy the link. The repository page
 will look something like this:
 
- 
+
+.. image:: images/image30.png
+   :align: center
+  
 
 Copy the link from the search bar.
 
 In the repository selection window, click the “URL” tab. Then, paste in
 the repository link and click “Clone”.
+
+
+.. image:: images/image228.png
+   :align: center
+
 
 (Note: Putting the parallels repo link in your GitHub and trying to
 clone it won’t work. Even by URL, GitHub checks to make sure that the
@@ -384,6 +462,11 @@ need to have it shared with you or accessible to you if you’re trying to
 clone it by URL.)
 
 Once you click “Clone”, it’ll redirect you to the following window.
+
+
+.. image:: images/image9.png
+   :align: center
+
 
 (I didn’t clone the parallels repository because I already have it
 downloaded to my computer.)
@@ -394,6 +477,11 @@ GitHub hosts it.
 
 Wait for the entire repository to download. One it’s done, it’ll take
 you to the following window:
+
+
+.. image:: images/image178.png
+   :align: center
+
 
 And that’s it! This is the main window in GitHub Desktop, and you can
 access your repository, commit, push, pull, and more from here.
@@ -408,6 +496,11 @@ Source Control
 First, let’s practice pushing to our repository. I’m going to do
 something simple: add a new image file to the img/characters folder.
 Let’s see what that looks like in GitHub Desktop.
+
+
+.. image:: images/image283.png
+   :align: center
+
 
 It shows me a preview of what I’ve added! This is super helpful when I’m
 trying to see what I’ve added without having to navigate the folder.
@@ -429,19 +522,37 @@ red-highlighted text or lines indicate subtract changes.
 When the file is an image-based file, such as a .png, you will get
 several options for how to view the changes.
 
+
+.. image:: images/image142.png
+   :align: center
+
+
 2-up will display the previous version and the current version
 side-by-side.
 
- 
+
+.. image:: images/image67.png
+   :align: center
+  
 
 Swipe will swipe through the change, as though you are dragging a
 curtain over the previous version.
+
+
+.. image:: images/image167.png
+   :align: center
+
 
 Onion Skin will give you a slider bar to show the change overlaid on top
 of each other. This is especially helpful when the change is small, as
 you can see it change by sliding the bar back and forth.
 
 And finally, my favorite, the Difference tab.
+
+
+.. image:: images/image292.png
+   :align: center
+
 
 This tab overlays one version on top of the other and sets the blend
 mode to Difference, showing the exact pixel color change for each pixel.
@@ -471,6 +582,11 @@ it, hopefully this section will.)
 YAML Files & Dialogue
 =====================
 
+
+.. image:: images/image5.png
+   :align: center
+
+
 A good way to start is by looking at the existing .yaml files in the
 vanilla game. Those can be located in the Playtest Folder provided
 by OneLoader, with the following filepath:
@@ -481,6 +597,11 @@ Location
 --------
 
 playtest_folder/languages/en
+
+
+.. image:: images/image125.png
+   :align: center
+
 
 (Source, FruitDragon)
 
@@ -495,6 +616,11 @@ Syntax
 ------
 
 When we open the 00_template.yaml, we’re shown the following code:
+
+
+.. image:: images/image111.png
+   :align: center
+
 
 (Source, 00_template.yaml, basegame)
 
@@ -517,7 +643,17 @@ convention. An example of a mod that uses this feature is
 Examples
 ~~~~~~~~
 
+
+.. image:: images/image159.png
+   :align: center
+
+
 (source: 01_cutscenes_neighbors.yaml, basegame)
+
+
+.. image:: images/image212.png
+   :align: center
+
 
 (source: fa_map_flavor.yaml, basegame)
 
@@ -538,6 +674,11 @@ dialogue options.
 
 Without these comments, you will end up with something like this:
 
+
+.. image:: images/image286.png
+   :align: center
+
+
 (source: curated example, courtesy of TomatoRadio)
 
 It’s a lot more difficult to tell what anything is for if you’re looking
@@ -545,6 +686,11 @@ at the files and are trying to figure out what each line is for. What
 does Kel do? What happens if you say no? Can you say no? You can’t tell.
 
 Now look at the same .yaml file with comments added in:
+
+
+.. image:: images/image16.png
+   :align: center
+
 
 (source: curated example, courtesy of TomatoRadio)
 
@@ -617,6 +763,11 @@ iconic laugh. No better way than to learn by example!
 
 Okay, now I’ve made myself curious.
 
+
+.. image:: images/image263.png
+   :align: center
+
+
 (source: 15_cutscenes_herothebachelor.yaml, basegame)
 
 We have here Sweetheart’s iconic entrance with Sweetheart’s iconic
@@ -669,6 +820,11 @@ boxes to tell you who’s speaking.
 
 Now that I think about it… we haven’t really seen how names are defined,
 yet. Only the dialogue itself. How does the game know who’s talking?
+
+
+.. image:: images/image229.png
+   :align: center
+
 
 (source: farawaytown_extras_dailydialogue.yaml, basegame)
 
@@ -725,6 +881,11 @@ Faceset and faceindex.
 Faceset
 -------
 
+
+.. image:: images/image141.png
+   :align: center
+
+
 (source: 01_cutscenes_neighbors.yaml, basegame)
 
 What is faceset? What are these random strings in the faceset?
@@ -732,7 +893,10 @@ What is faceset? What are these random strings in the faceset?
 They’re filenames. More specifically, for files in the img/faces folder,
 shown here:
 
- 
+
+.. image:: images/image48.png
+   :align: center
+  
 
 (source: FruitDragon)
 
@@ -758,6 +922,11 @@ The file formatting for one of these facesets is pretty specific. 106
 pixels by 106 pixels per face, 4 faces per row. You can have as many
 rows as you need.
 
+
+.. image:: images/image209.png
+   :align: center
+
+
 (source: FruitDragon)
 
 How does the game know which face in each faceset to use, though?
@@ -774,6 +943,11 @@ This number tells the game which file to fetch from the given faceset.
 Here’s an example using a darkened monochrome version of
 MainCharacters_Faraway:
 
+
+.. image:: images/image32.png
+   :align: center
+
+
 (source: FruitDragon (edit of MainCharacters_Faraway, face 15 is
 custom))
 
@@ -788,7 +962,27 @@ dialogue is printed.
 Dialogue Examples:
 ------------------
 
+
+.. image:: images/image35.png
+   :align: center
+
+
 Let’s see what each of these turn out to look like!
+
+
+.. image:: images/image73.png
+   :align: center
+
+
+
+.. image:: images/image29.png
+   :align: center
+
+
+
+.. image:: images/image175.png
+   :align: center
+
 
 (source: Biggie Cheese)
 
@@ -810,6 +1004,11 @@ Well, I’ll go over that in the next section:
 Events
 ======
 
+
+.. image:: images/image99.png
+   :align: center
+
+
 “What is an event?”
 
 Well, an event is anything that happens in the game. Even the Player is
@@ -818,6 +1017,11 @@ for this.
 
 To turn on the Event Editor, click the following button at the top of
 your main RPG Maker MV window.
+
+
+.. image:: images/image254.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -836,6 +1040,11 @@ To make a new Event, all you have to do is double click any empty square
 in the Event Editor. You’ll get a new page that looks something like
 this:
 
+
+.. image:: images/image238.png
+   :align: center
+
+
 (Source: FruitDragon)
 
 There’s a few important things to note when we’re talking about Events.
@@ -848,6 +1057,11 @@ We’ll go over almost all the sections in detail.
 
 Event Page - The Top
 ~~~~~~~~~~~~~~~~~~~~
+
+
+.. image:: images/image91.png
+   :align: center
+
 
 It’s pretty self-explanatory. An Event can have multiple pages, and this
 is where you can make a new event page, copy an existing event page to
@@ -923,6 +1137,11 @@ to tell the number without having to open the Event page every time.
 Event Page - Conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+
+.. image:: images/image138.png
+   :align: center
+
+
 (Source: FruitDragon)
 
 These tell you what Conditions need to be fulfilled in order to run that
@@ -950,16 +1169,31 @@ that one has the highest priority.
 
 Here’s some examples:
 
+
+.. image:: images/image18.png
+   :align: center
+
+
 (Source: FruitDragon)
 
 This set of Conditions means that the Event Page won’t run unless the
 Switch Mom’s Broom Equipped is true— basically, it won’t run unless the
 player equips Mom’s Broom.
 
+
+.. image:: images/image69.png
+   :align: center
+
+
 (Source: FruitDragon)
 
 This set of conditions means that the event page will run when the
 player has started sorting and the Self Switch A was triggered.
+
+
+.. image:: images/image287.png
+   :align: center
+
 
 (Source: FruitDragon)
 
@@ -967,6 +1201,11 @@ This set of Conditions means that the event page will run when Omori is
 in the party and you are holding an item. (This particular one is
 impossible in the vanilla game— since the Holding Item Switch is
 specific to the sorting chore in Sunny’s house.)
+
+
+.. image:: images/image137.png
+   :align: center
+
 
 (Source: FruitDragon)
 
@@ -979,15 +1218,30 @@ inventory.
 Event Page - Image
 ~~~~~~~~~~~~~~~~~~
 
+
+.. image:: images/image58.png
+   :align: center
+
+
 (Source: FruitDragon)
 
 This one’s also pretty self explanatory. When you double click on the
 gray and white checkered box, it’ll summon an image selection window.
 
+
+.. image:: images/image120.png
+   :align: center
+
+
 (Source: FruitDragon)
 
 From there, you can select a sprite from the img/characters folder to
 use as the image for the sprite.
+
+
+.. image:: images/image57.png
+   :align: center
+
 
 (Source: FruitDragon)
 
@@ -1002,6 +1256,11 @@ the help of plugins.
 
 Here’s a common one that is used aside from actual character sprite
 sheets, usually for dev purposes:
+
+
+.. image:: images/image112.png
+   :align: center
+
 
 (Source: FruitDragon)
 
@@ -1020,6 +1279,26 @@ Event Page - Autonomous Movement
 This box is used to decide where the Event moves when it’s not being
 triggered.
 
+
+.. image:: images/image226.png
+   :align: center
+
+
+
+.. image:: images/image240.png
+   :align: center
+
+
+
+.. image:: images/image271.png
+   :align: center
+
+
+
+.. image:: images/image23.png
+   :align: center
+
+
 (Source: FruitDragon)
 
 Honestly, they’re pretty self-explanatory.
@@ -1031,6 +1310,11 @@ advanced capabilities.
 
 Event Page - Priority
 ~~~~~~~~~~~~~~~~~~~~~
+
+
+.. image:: images/image282.png
+   :align: center
+
 
 (Source: FruitDragon)
 
@@ -1050,6 +1334,12 @@ Event Page - Trigger
 ~~~~~~~~~~~~~~~~~~~~
 
 .. _h.w2h3l2mtyci7:
+
+ 
+.. image:: images/image44.png
+   :align: center
+ 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 (Source: FruitDragon)
 
@@ -1083,6 +1373,11 @@ will not be locked.
 Event Page - Options
 ~~~~~~~~~~~~~~~~~~~~
 
+
+.. image:: images/image97.png
+   :align: center
+
+
 (Source: FruitDragon)
 
 Walking means that the walking animation is turned on when the event is
@@ -1104,6 +1399,11 @@ Event Page - Contents
 ~~~~~~~~~~~~~~~~~~~~~
 
 And finally, we reach the last part of the Event Editor.
+
+
+.. image:: images/image186.png
+   :align: center
+
 
 (Source: FruitDragon)
 
@@ -1129,6 +1429,11 @@ perhaps one of us.
 
 When you double-click on the Contents box, you get the following menu,
 with three pages of options:
+
+
+.. image:: images/image13.png
+   :align: center
+
 
 (Source: FruitDragon)
 
@@ -1207,6 +1512,11 @@ over each time. Events that aren’t specific to a location can also be
 put here. An example of this is the Tag System event in the basegame,
 shown below:
 
+
+.. image:: images/image126.png
+   :align: center
+
+
 (source: FruitDragon)
 
 Since tagging occurs when you use the Tag option in the menu, and not
@@ -1257,10 +1567,20 @@ it the types listed above, you’ll want to change the Trigger option to
 the desired mode, with None being a Regular Common Event, and then
 assigning a Switch to control the activity of Automatic Common Events.
 
+
+.. image:: images/image288.png
+   :align: center
+
+
 (Source: FruitDragon)
 
 Of course, don’t forget to name it! That’s how you’ll be able to
 identify the Common Event when you’re trying to call it later on.
+
+
+.. image:: images/image270.png
+   :align: center
+
 
 (Source: FruitDragon)
 
@@ -1279,6 +1599,11 @@ Event Commands - Movement
 
 I’ll specifically talk about Set Movement Route here. This is how you
 can get characters to move around in cutscenes. When you click on it:
+
+
+.. image:: images/image80.png
+   :align: center
+
 
 (Source: FruitDragon)
 
@@ -1343,6 +1668,11 @@ needs to be run once.
 
 The source images can be found in img/system/balloon.png
 
+
+.. image:: images/image176.png
+   :align: center
+
+
 Erase Event: Erases the event for the duration of the player’s stay on
 the current map. The event will be brought back when the player leaves
 and comes back to the map.
@@ -1366,6 +1696,11 @@ SE - Sound Effects (like a door opening) [Doesn’t Loop]
 
 ME - Music Effects (when an ME is playing, all sounds aside from the
 ME are paused) [Doesn’t Loop]
+
+
+.. image:: images/image170.png
+   :align: center
+
 
 (Source: FruitDragon)
 
@@ -1397,10 +1732,20 @@ Dialogue
 We’ve talked about how to write dialogue in the .yaml files. But now
 it’s time to talk about how to run said dialogue in the game itself.
 
+
+.. image:: images/image14.png
+   :align: center
+
+
 (Source: FruitDragon)
 
 When we click on Plugin Command, we get the above window. All you have
 to do is enter the below text:
+
+
+.. image:: images/image218.png
+   :align: center
+
 
 (Source: FruitDragon)
 
@@ -1507,6 +1852,11 @@ as teleportation. Scripts can also be used to set Self Switches of other
 events. And these are just a few examples. Like I said, seriously
 powerful stuff.
 
+
+.. image:: images/image96.png
+   :align: center
+
+
 (Source: FruitDragon)
 
 An example of a Script commonly found in the game. This script is used
@@ -1543,7 +1893,17 @@ game.
 
 Here’s an example of a script found when opening doors:
 
+
+.. image:: images/image169.png
+   :align: center
+
+
 (Source: FruitDragon)
+
+
+.. image:: images/image234.png
+   :align: center
+
 
 (Source: !objects_fa_doors.png, basegame)
 
@@ -1737,6 +2097,16 @@ the map, the fog will begin to teleport.
 Event Examples
 --------------
 
+
+.. image:: images/image169.png
+   :align: center
+
+
+
+.. image:: images/image96.png
+   :align: center
+
+
 (source: parallels, courtesy of FruitDragon)
 
 Teleport Scripts!
@@ -1751,6 +2121,11 @@ into view.
 
 There are other types of Teleport Scripts aside from front doors,
 though, so it’s always good to check those out!
+
+
+.. image:: images/image249.png
+   :align: center
+
 
 (source: parallels, courtesy of FruitDragon)
 
@@ -1768,6 +2143,11 @@ in this case will make the Event’s sprite visible.
 Maps
 ====
 
+
+.. image:: images/image40.png
+   :align: center
+
+
 “So… what, exactly, is a map?”
 
 Well you’re looking at one right now! Look at that banner. It’s a map!
@@ -1778,6 +2158,11 @@ events are located.
 
 Maps are located in the bottom left corner of the RPG Maker MV editor:
 
+
+.. image:: images/image17.png
+   :align: center
+
+
 (source: FruitDragon)
 
 .. _h.y2wi4nyj8sy8:
@@ -1787,6 +2172,11 @@ Basic Facts about Maps
 
 You can find all the information here at the bottom right of your
 editor!!
+
+
+.. image:: images/image25.png
+   :align: center
+
 
 (source: parallels, courtesy of FruitDragon)
 
@@ -1825,6 +2215,11 @@ them in a bit more detail.
 Tilemaps
 --------
 
+
+.. image:: images/image224.png
+   :align: center
+
+
 (source: map28, Kim & Vance’s house, basegame)
 
 This is a Tilemap. They’re made of tiles, using the \ `Tiled
@@ -1841,6 +2236,11 @@ every playtest you plan to edit maps in.)
 All Tilemaps found in the game are in the maps folder in the playtest
 folder.
 
+
+.. image:: images/image41.png
+   :align: center
+
+
 (source: FruitDragon)
 
 The maps themselves just look like a bunch of numbers when you open them
@@ -1848,6 +2248,11 @@ in a code editor. Definitely not like what you’d expect from the game.
 
 When you open the same file with the Tiled editor though, this is what
 shows up.
+
+
+.. image:: images/image251.png
+   :align: center
+
 
 (source: map53, Artist & Angel’s house, basegame)
 
@@ -1880,6 +2285,11 @@ so that the Tilemap can access it.
 The images associated with the tilesets (separate from the tilesets
 themselves) are located in the img/tilesets folder, like so:
 
+
+.. image:: images/image121.png
+   :align: center
+
+
 (source: FruitDragon)
 
 Tilesets are generally densely packed, as shown above. This is so you
@@ -1906,16 +2316,36 @@ First, we have to make a new map in RPG Maker MV. It’s important to note
 that the map organization is based on which map you have selected in the
 editor when you create the map. Here’s an example:
 
+
+.. image:: images/image140.png
+   :align: center
+
+
 (source: FruitDragon)
 
 Right now, I have the Developer’s Room selected. When I create a new
 map, it goes here, at the bottom of the Developers’ Room category.
 
+
+.. image:: images/image115.png
+   :align: center
+
+
 (source: FruitDragon)
+
+
+.. image:: images/image276.png
+   :align: center
+
 
 (source: FruitDragon)
 
 However, when I select the main game…
+
+
+.. image:: images/image248.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -1930,9 +2360,19 @@ So, now that we’ve got that out of the way… let’s get into making a map.
 Right-click on the map category you want your map to fall under, then
 click on New.
 
+
+.. image:: images/image266.png
+   :align: center
+
+
 (source: FruitDragon)
 
 It’ll open up the following window:
+
+
+.. image:: images/image173.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -1955,12 +2395,20 @@ will stop but there won’t be any audio playing in its place.
 This is also the case for Battlebacks, the term used for battle
 backgrounds.
 
- 
+
+.. image:: images/image163.png
+   :align: center
+  
 
 (source: FruitDragon)
 
 You can also add a parallax image. Parallaxes are located in the
 img/parallaxes folder.
+
+
+.. image:: images/image206.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -1975,6 +2423,11 @@ options. Feel free to fiddle with the numbers and find out how best to
 do it!
 
 So, here are my settings for this map:
+
+
+.. image:: images/image225.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -1998,6 +2451,11 @@ folder, find the following file:
 
 maps/map00_Template_32x32.json
 
+
+.. image:: images/image130.png
+   :align: center
+
+
 (source: FruitDragon)
 
 Make a copy of it and rename it to mapXX (XX being the ID number we
@@ -2006,9 +2464,19 @@ we’re gonna make belongs to the map we made in RPG Maker MV.
 
 Here’s mine:
 
+
+.. image:: images/image150.png
+   :align: center
+
+
 (source: FruitDragon)
 
 Now, open it in Tiled.
+
+
+.. image:: images/image245.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -2016,6 +2484,11 @@ This is what the resulting editing window will look like. First, before
 we do anything else, we want to resize the tilemap to fit the dimensions
 of our map in RPG Maker MV. We can do that by clicking on Map > Resize
 Map from the toolbar at the top of the screen.
+
+
+.. image:: images/image168.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -2034,6 +2507,11 @@ Loading Tilesets
 
 Loading a tileset is pretty simple.
 
+
+.. image:: images/image31.png
+   :align: center
+
+
 (source: FruitDragon)
 
 This window in the corner is where the tilesets show. If I want a
@@ -2042,14 +2520,27 @@ tileset that isn’t there, though, all I have to do is:
 #. Locate the tileset in my file manager (usually, the name is the
    internal name of the area)
 #. Click on Map > Add External Tileset
+   
+.. image:: images/image239.png
+   :align: center
+
 
 (source: FruitDragon)
 
 3. Select the tileset that I want (make sure that the file type is set
    to .json)
+   
+.. image:: images/image45.png
+   :align: center
+
 
 And that’s all! The tileset that I want is now added to the map that I
 just made, and I can freely use any tile from it in my tilemap.
+
+
+.. image:: images/image128.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -2089,6 +2580,11 @@ layers, usually. This makes it easier to tell what parts of the map
 you’ve already set as a certain region or blocked off, since they’re not
 blocked by any tiles from layers above.
 
+
+.. image:: images/image72.png
+   :align: center
+
+
 (source: FruitDragon)
 
 The layer menu for an OMORI tilemap will look somewhat like this.
@@ -2111,6 +2607,11 @@ properties. But how do we add custom properties?
 Adding Custom Properties
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+.. image:: images/image63.png
+   :align: center
+
+
 (source: FruitDragon)
 
 This is your properties window. By default, if you used the template,
@@ -2118,14 +2619,29 @@ you’ll already have two custom properties loaded in; priority and
 zIndex. However, there’s more types of custom properties than just those
 two. To add a new one:
 
+
+.. image:: images/image68.png
+   :align: center
+
+
 (source: FruitDragon)
 
 Click on the plus sign at the bottom.
+
+
+.. image:: images/image37.png
+   :align: center
+
 
 (source: FruitDragon)
 
 Put the name of the property in the corresponding box. You should
 not change the data type of the property from ‘string.’
+
+
+.. image:: images/image244.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -2161,6 +2677,11 @@ once, so use them only when needed.
 
 There are more possible values than this, but OMORI doesn’t use them, so
 you don’t have to. Still, here’s a quick guide.
+
+
+.. image:: images/image184.png
+   :align: center
+
 
 (source: \ `this google
 doc <https://www.google.com/url?q=https://docs.google.com/document/d/1LyoDxBbtw4MUb7HirIZEaigpbJOcbwTelby7vttIAlg/edit%23heading%3Dh.dckld2q0kapk&sa=D&source=editors&ust=1782966892376861&usg=AOvVaw2_PrKN1bpRHBfZMRR2cy-m>`__\ )
@@ -2243,6 +2764,11 @@ automatically loaded in with the template map.)
 When you create a collision layer, all you need to do is set the
 collision property to tile-base, like so:
 
+
+.. image:: images/image262.png
+   :align: center
+
+
 (source: FruitDragon)
 
 Note: The Collision Layer in the template map is already set up
@@ -2273,13 +2799,27 @@ corresponding Level. Usually the transition is placed on the “path”
 at the bottom and TO LEVEL 1 is at the top, looking similar to this
 crudely drawn diagram.
 
+
+.. image:: images/image253.png
+   :align: center
+
+
 (Source: TomatoRadio)
 
 Conveniently, the Collision Tileset has tiles to mark these tiles on the
-map for ease of use.
+map for ease of use. 
+
+.. image:: images/image42.png
+   :align: center
+
 
 However, we need Custom Properties to get these layers to actually do
 anything.
+
+
+.. image:: images/image60.png
+   :align: center
+
 
 (Source: TomatoRadio)
 
@@ -2301,6 +2841,16 @@ Now that we have the ability to move between Levels, we need to create
 the layers that change between levels.
 
 Once again, we’ll need two types of Custom Properties.
+
+
+.. image:: images/image53.png
+   :align: center
+
+
+
+.. image:: images/image194.png
+   :align: center
+
 
 (Source: TomatoRadio)
 
@@ -2331,6 +2881,11 @@ Making Our Map
 --------------
 
 Now let’s use what we’ve learned to make our map!
+
+
+.. image:: images/image12.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -2363,10 +2918,20 @@ To create Terrain Tiles, simply open the tileset in the Tiled editor by
 clicking “Edit Tileset”, then set them up. It’s the little icon with the
 wrench.
 
+
+.. image:: images/image109.png
+   :align: center
+
+
 (source: FruitDragon)
 
 Now that you have your tileset open, click the icon that looks like a
 tiny tilemap to open the Terrain Sets editor.
+
+
+.. image:: images/image242.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -2375,12 +2940,20 @@ Click the plus sign and add a new Corner Set.
 Note: If you are using v1.0.3, then it will not prompt for what type of
 Terrain Set you want, as v1.0.3 only has Corner Sets.
 
+
+.. image:: images/image139.png
+   :align: center
+
+
 (source: FruitDragon)
 
 Feel free to name your terrain set whatever you want! I just named mine
 after the tileset I’m using, DW_VastForest.
 
- 
+
+.. image:: images/image177.png
+   :align: center
+  
 
 (source: FruitDragon)
 
@@ -2390,15 +2963,30 @@ All this is doing is defining what type of tile each of these tiles are—
 a top tile, a corner tile, an inverted corner tile, etc. Make sure to
 save!
 
+
+.. image:: images/image198.png
+   :align: center
+
+
 (source: FruitDragon)
 
 Then, you can navigate to ‘Terrains’ at the bottom of the editor and
 select your terrain set.
 
+
+.. image:: images/image108.png
+   :align: center
+
+
 (source: FruitDragon)
 
 Now you can simply drag your cursor and your land will be made
 perfectly, just like that!
+
+
+.. image:: images/image191.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -2420,11 +3008,21 @@ North Lake (DW_NorthLake.json). I used the bottom two layers— GROUND -
 I for my water, and GROUND - II for the islands. It’s looking pretty
 good so far!
 
+
+.. image:: images/image279.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 Now I’m interested in making the bridge system. I’ve created some custom
 bridge tiles by editing the bridges from DW_NorthLake.json, so I’ll be
 using those.
+
+
+.. image:: images/image89.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2438,6 +3036,11 @@ layer.
 Speaking of going through the water, the player will need to be able to
 get into the water. Let’s put down some ladders.
 
+
+.. image:: images/image193.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 I used some of the ladder tiles from general_use.json for this. There
@@ -2449,10 +3052,20 @@ But wait, I’ve already run out of GROUND layers!
 That’s okay. To create a new layer, all I need to do is right-click the
 layer window, then click New > Tile Layer.
 
+
+.. image:: images/image284.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 After that, I can name it whatever I want. I’ll put custom properties at
 the end, once I’m finished with the map, in case I need more layers.
+
+
+.. image:: images/image105.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2468,7 +3081,17 @@ want by holding ctrl and then enable the random tool, which looks like a
 pair of dice. This will make every tile you place be a random one of the
 selected tiles. This also works on the fill and rectangle tools.
 
+
+.. image:: images/image71.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
+
+
+.. image:: images/image207.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2488,6 +3111,11 @@ AS CHARACTER layer; however, there is a limit to how many of these tiles
 will be visible to the player at once, and will display as invisible if
 exceeded.
 
+
+.. image:: images/image274.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 I decided to add bushes on the same layer as the trees. These are also
@@ -2496,6 +3124,11 @@ from the DW_VastForest.json tileset.
 Also, I saw a submerged tree tile on DW_VastForest.json that seems cool
 to add in the water. Let me add a few of those. I’m going to add these
 on the same layer as my land tiles for ease (GROUND - II).
+
+
+.. image:: images/image171.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2522,9 +3155,19 @@ When the player is on Level 1, I want the bridge to go above the player.
 In order to do that, I’m going to make a duplicate of my two bridge
 layers and set them to Above All.
 
+
+.. image:: images/image144.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 Of course, I need to remember to set my zIndex to 5!
+
+
+.. image:: images/image106.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2540,9 +3183,19 @@ the above all bridge needs to be hidden when the player is on land
 
 My GROUND bridge:
 
+
+.. image:: images/image133.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 My ABOVE ALL bridge:
+
+
+.. image:: images/image215.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2552,6 +3205,11 @@ ladders, I only need to set up a transition next to each ladder.
 
 You’ll want to create two layers like this, preferably at the top of
 your layers list for organization purposes.
+
+
+.. image:: images/image180.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2564,10 +3222,20 @@ like.
 TO LEVEL 0:
 ^^^^^^^^^^^
 
+
+.. image:: images/image278.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 The “LVL 0” tile shown is from the Tile_Collisions_32x32.json tileset.
 Here’s what the Custom Properties look like:
+
+
+.. image:: images/image267.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2576,10 +3244,20 @@ Here’s what the Custom Properties look like:
 TO LEVEL 1:
 ^^^^^^^^^^^
 
+
+.. image:: images/image147.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 The “LVL 1” tile shown is from the Tile_Collisions_32x32.json tileset.
 Here’s what the Custom Properties look like:
+
+
+.. image:: images/image294.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2600,15 +3278,30 @@ separate layers for each level. The COLLISION layer is especially
 crucial, as if you don’t have a separate collision layer for every
 level, the game will break.
 
+
+.. image:: images/image211.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 The custom properties for these will look something like this.
 
 Collision:
 
+
+.. image:: images/image64.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 Region (Region 90):
+
+
+.. image:: images/image210.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2627,12 +3320,22 @@ Collision
 Making a collision layer is simple. There’s a tileset, called
 Tile_Collisions_32x32.json, that is used for collision layers.
 
+
+.. image:: images/image151.png
+   :align: center
+
+
 (source: FruitDragon)
 
 The red collision tile, known as the full collision tile, is the tile
 that we generally use most for collision. It’s the easiest to use and
 the hardest to mess up. The player and other events (barring those with
 Through turned on) cannot step onto these tiles in any way.
+
+
+.. image:: images/image196.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2647,14 +3350,32 @@ rarer cases, where the ‘wall’ is between two tiles.
 In the example below, I didn’t want the player to be able to access the
 ladder from the side, so I used a partial collision tile.
 
+
+.. image:: images/image185.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 Basegame also uses these for things like poles.
+
+
+.. image:: images/image149.png
+   :align: center
+ 
+.. image:: images/image183.png
+   :align: center
+
 
 (sources: map63, Faraway Park, basegame; and map383, Beach Memory,
 basegame)
 
 Once a collision layer is done, add the collision Custom Property to it.
+
+
+.. image:: images/image250.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2676,10 +3397,20 @@ the tileset that we use for regions.
 For my Region 90 layer, I’ll use the tile marked with a ‘90’. All I need
 to do is put the ‘90’ tile on each ladder.
 
+
+.. image:: images/image199.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 And to finish it off, I’ll make sure my regionId Custom Property is set
 to 90.
+
+
+.. image:: images/image56.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2697,6 +3428,11 @@ Organization is really, really important when it comes to making maps.
 
 Because right now? My map is a total mess.
 
+
+.. image:: images/image264.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 Not to mention, my zIndex and priority Custom Values aren’t lined up
@@ -2709,6 +3445,11 @@ So how do I organize this?
 
 Step 1: Delete Unused Layers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+.. image:: images/image78.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2726,6 +3467,11 @@ CHARACTERS - I, ABOVE ALL - I,” though that’s what I’ll be using. Other
 schemes you could use could be something like “G1, S1, A1” or “Ground 1,
 Character 1, Above 1.” Whatever works best for you!
 
+
+.. image:: images/image94.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 .. _h.gpmwhl65zbm1:
@@ -2737,6 +3483,11 @@ A little something I like to add is Level Specification. This helps on a
 map with multiple levels, especially to help me tell what layers are a
 duplicate of other layers so that if I edit one layer, I remember to
 edit the other layer.
+
+
+.. image:: images/image83.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2755,6 +3506,11 @@ Because you named the map mapXX (XX being the ID of the map in RPG Maker
 MV), it should load perfectly fine upon accessing that map in the game.
 
 …Right?
+
+
+.. image:: images/image116.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2782,10 +3538,20 @@ loading a map into the editor in base RPG Maker MV.
 First, we’ll need to open the map that we want to load into RPG Maker
 MV in our Tiled editor.
 
+
+.. image:: images/image52.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 Set the zoom level to 150%. This is important. Importing the map to
 RPGMaker will not work properly otherwise.
+
+
+.. image:: images/image217.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2797,9 +3563,19 @@ ensuring everything lines up properly.)
 Next, I’ll need to export the map as an image. I can do this by
 selecting File > Export as Image.
 
+
+.. image:: images/image269.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 It’ll open the following window.
+
+
+.. image:: images/image165.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2820,6 +3596,11 @@ Instead, change ‘maps’ to ‘img/parallaxes’.
 You can set the name of the map to whatever you want, but it’s usually
 easiest to just keep it in the mapXX format.
 
+
+.. image:: images/image79.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 Now that that’s done, click ‘Export’!
@@ -2829,9 +3610,19 @@ It’s time to go back to RPG Maker MV.
 Right click on the map name in the map list on the left of the screen,
 then click ‘Edit’.
 
+
+.. image:: images/image66.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 It’ll open the following window:
+
+
+.. image:: images/image39.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2840,10 +3631,20 @@ image selection window and locate the map image you just exported. It’ll
 only show images in the img/parallaxes folder, which is why we had to
 put it there instead of the maps folder.
 
+
+.. image:: images/image237.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 Click “OK”, then make sure the “Show in the Editor” checkmark is
 selected. It should look something like this:
+
+
+.. image:: images/image148.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2853,6 +3654,11 @@ forced to replace with this, you can leave the scroll settings intact.
 
 Now, once you exit out of the map editing window, your map will
 automatically show up in the editor!
+
+
+.. image:: images/image230.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -2876,6 +3682,11 @@ When in OneMaker MV, upon opening the map editor, you’ll find that the
 “Show Tiled Maps”. This is because all parallax images are rendered on
 the map by default, and Tiled maps are separately rendered.
 
+
+.. image:: images/image285.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 It still doesn’t work automatically, but it’s now a lot easier to save
@@ -2892,6 +3703,11 @@ Renderer <https://www.google.com/url?q=https://github.com/rphsoftware/omori-map-
 export them automatically. Simply go to the link, scroll down, and
 download the version for your OS (shown below).
 
+
+.. image:: images/image227.png
+   :align: center
+
+
 (source: FruitDragon, GitHub)
 
 I’ll be using the Windows OS version.
@@ -2900,10 +3716,20 @@ Next, bring the application to your playtest folder and drop it in. It
 should be located in the same folder as your Game.rpgproject file.
 (Note: The file may not be called 'renderifier.exe' for you.)
 
+
+.. image:: images/image81.png
+   :align: center
+
+
 (source: FruitDragon)
 
 Run the application. You should get a terminal window that looks
 something like this:
+
+
+.. image:: images/image24.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -2922,10 +3748,20 @@ that.
 The folders would appear something like this in your File
 Explorer window, in the same folder your Game.rpgproject file is in:
 
+
+.. image:: images/image61.png
+   :align: center
+
+
 (source: FruitDragon)
 
 Now you can simply open your RPG Maker MV project and the maps will
 automatically be rendered by OneMaker MV.
+
+
+.. image:: images/image255.png
+   :align: center
+
 
 (source: map14, Player’s House (Day), basegame, in the OneMaker
 MV editor)
@@ -2934,6 +3770,11 @@ To disable the Tiled map view on any map, simply uncheck the “Show Tiled
 Maps” checkmark for that map. You’ll be left with the checkered event
 grid instead.
 
+
+.. image:: images/image202.png
+   :align: center
+
+
 (source: FruitDragon)
 
 And don’t worry, the Tiled maps won’t show up in game! Parallaxes will
@@ -2941,15 +3782,30 @@ still be visible with them on, too. Here’s an example.
 
 Without the Tiled map:
 
+
+.. image:: images/image95.png
+   :align: center
+
+
 (source: map55, Shopping Center (Day), basegame, in the OneMaker
 MV editor)
 
 With the Tiled map (edited slightly for testing purposes lol):
 
+
+.. image:: images/image122.png
+   :align: center
+
+
 (source: map55, Shopping Center (Day), basegame, in the OneMaker
 MV editor)
 
 The same map, loaded in the playtest:
+
+
+.. image:: images/image22.png
+   :align: center
+
 
 (source: map55, Shopping Center (Day), basegame)
 
@@ -2983,6 +3839,11 @@ to do.
 Going back to using the Vast Forest Maze example, we’ll have to open the
 map in Tiled again.
 
+
+.. image:: images/image52.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 Don’t bother setting the zoom level.
@@ -2990,9 +3851,19 @@ Don’t bother setting the zoom level.
 Now I’ll need to export the map as an image. I can do this by selecting
 File > Export as Image.
 
+
+.. image:: images/image269.png
+   :align: center
+
+
 (source: FruitDragon, a map made for The Dreamer)
 
 It’ll open the following window.
+
+
+.. image:: images/image165.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -3001,6 +3872,11 @@ checked. Not setting it to “Use current zoom level” will make it so that
 it exports at 100% size by default.
 
 Change the ‘maps’ in the file path to ‘render’, like so.
+
+
+.. image:: images/image146.png
+   :align: center
+
 
 (source: FruitDragon, a map made for The Dreamer)
 
@@ -3027,6 +3903,11 @@ go over that here.
 
 Here’s my tileset:
 
+
+.. image:: images/image268.png
+   :align: center
+
+
 (source: FruitDragon, edited version of DW_CattailField.png)
 
 It’s just an edited version of DW_CattailField.png, turning it pink.
@@ -3035,9 +3916,19 @@ Make sure to put your tileset image in the img/tilesets folder!
 Next, I’m going to make a new tileset in Tiled. Go to File > New >
 Tileset.
 
+
+.. image:: images/image243.png
+   :align: center
+
+
 (source: FruitDragon)
 
 It’ll open to the following window:
+
+
+.. image:: images/image221.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -3045,6 +3936,11 @@ You can name it, but you don’t need to. Instead, click “Browse” and
 locate your tileset image in the tilesets folder. If you don’t put
 anything in the Name box, your tileset will automatically take the name
 of whatever the image of your tileset is.
+
+
+.. image:: images/image8.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -3055,10 +3951,20 @@ tileset as .json. You can do this by selecting “JSON tileset files” and
 then manually typing .json at the end of the file name, then clicking
 “Save”.
 
+
+.. image:: images/image275.png
+   :align: center
+
+
 (source: FruitDragon)
 
 As soon as you’re done with that, your new tileset should pop up in
 Tiled.
+
+
+.. image:: images/image190.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -3079,9 +3985,19 @@ Animation Editor. I don’t really know what the icon is called lol.
 
 “It’s called a film camera.” - TomatoRadio
 
+
+.. image:: images/image222.png
+   :align: center
+
+
 (source: FruitDragon)
 
 It’ll open up this window.
+
+
+.. image:: images/image232.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -3089,6 +4005,11 @@ Here, you can drag tiles into the animation editor and set the
 milliseconds that tile is shown for. Setting the frame duration at the
 top sets the default time that is set when you drag a tile into the
 editor.
+
+
+.. image:: images/image27.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -3121,9 +4042,19 @@ to locate which map.
 
 Here’s the map I picked:
 
+
+.. image:: images/image273.png
+   :align: center
+
+
 (source: FruitDragon)
 
 Now, I need to locate it in the maps folder.
+
+
+.. image:: images/image179.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -3134,15 +4065,30 @@ this.
 
 It takes me to a window that looks like this:
 
+
+.. image:: images/image156.png
+   :align: center
+
+
 (source: FruitDragon)
 
 Scroll all the way to the bottom, and you’ll find the names of the
 tilesets.
 
+
+.. image:: images/image241.png
+   :align: center
+
+
 (source: FruitDragon)
 
 Simply replace “DW_Cattail.json” with “DW_CattailFieldPink.json”. Then
 open your map and see what it looks like now!
+
+
+.. image:: images/image93.png
+   :align: center
+
 
 (source: FruitDragon, edited map118.json)
 
@@ -3158,6 +4104,11 @@ easier way. Select the tileset you want to replace, then click on the
 “Replace Tileset” icon here. After that, locate the tileset you want to
 replace it with in the file explorer window that pops up. And that’s
 all!
+
+
+.. image:: images/image154.png
+   :align: center
+
 
 (source: FruitDragon)
 
@@ -3175,6 +4126,11 @@ Onto the next thing:
 
 Sprites and Art
 ===============
+
+
+.. image:: images/image252.png
+   :align: center
+
 
 Now, I hear what some of you are thinking, “FruitDragon, events and
 tilemaps are nice and all, but I don’t want them to look like they do.
@@ -3209,12 +4165,22 @@ These sections will have 3 sprites of movement in the 4 cardinal
 directions as pictured below. You don’t need to do anything to make the
 animations work aside from lining them up correctly.
 
+
+.. image:: images/image258.png
+   :align: center
+
+
 (source: DW_NPC_10.png, basegame)
 
 Now. As you can see here, Capt. Spaceboy’s spritesheet, while sized the
 same, has a few “sections” that don’t follow this structure at all. Many
 spritesheets will also store character animations in the same sheet.
 These are called through scripts in the event coding.
+
+
+.. image:: images/image86.png
+   :align: center
+
 
 (source: DW_SBF.png, basegame)
 
@@ -3228,7 +4194,17 @@ If a $ is added to the front of a filename, it becomes a 3x4 sheet
 designed for one character/section. This is best for animated characters
 or objects with special dimensions.
 
+
+.. image:: images/image28.png
+   :align: center
+
+
 (source: $glassomori.png, basegame)
+
+
+.. image:: images/image134.png
+   :align: center
+
 
 (source: $BS_Raft.png, basegame)
 
@@ -3239,7 +4215,17 @@ characters or objects with special dimensions.
 Note that in the Event Editor, it will be divided into a 12x8. Don't
 worry about that, it will show as one sprite in game.
 
+
+.. image:: images/image47.png
+   :align: center
+
+
 (source: [SF]Blanket_Fort_Empty.png, basegame)
+
+
+.. image:: images/image200.png
+   :align: center
+
 
 (source: [SF]FA_basil_TV.png, basegame)
 
@@ -3257,7 +4243,17 @@ feature in base RPGMaker MV, it will not work.) 
 Note that in the Event Editor, it will be divided into a 12x8 or 3x4.
 Don't worry about that, it will show correctly in game.
 
+
+.. image:: images/image265.png
+   :align: center
+
+
 (source: $DW_BASIL_RUN%(8).png, basegame)
+
+
+.. image:: images/image290.png
+   :align: center
+
 
 (source: $bs_en_nanci%(7).png, basegame)
 
@@ -3266,7 +4262,17 @@ comparison to the map. This is to add a sense of depth. However, if you
 want this disabled for certain sprites, like doors, you can add ! to the
 front of the filename in order to disable this.
 
+
+.. image:: images/image161.png
+   :align: center
+
+
 (source: !FA_PLAYERHOUSE_OBJ.png, basegame)
+
+
+.. image:: images/image4.png
+   :align: center
+
 
 (source: !objects_fa_doors_sunset_2.png, basegame)
 
@@ -3301,10 +4307,20 @@ MISSING <https://www.google.com/url?q=https://mods.one/mod/omoriismissing&sa=D&s
 Note: Another thing to keep in mind with the basegame textbox is that
 its borders will crop off 4 pixels of all dialogue portraits.
 
+
+.. image:: images/image157.png
+   :align: center
+
+
 (source: TomatoRadio)
 
 An example of numbering a faceset. The background is added for
 visibility, and shouldn't be present in the actual faceset.
+
+
+.. image:: images/image131.png
+   :align: center
+
 
 (source: MainCharacter_Mari.png, basegame)
 
@@ -3317,6 +4333,11 @@ and overlapping indexes for you to remember and cuts down on file size.
 In fact, there is virtually no limit to the size of a faceset, as an
 image as large as this still works perfectly okay in game. For
 reference, that’s 400 faces.
+
+
+.. image:: images/image113.png
+   :align: center
+
 
 (Source: big.png, TomatoRadio’s dearly beloved creation)
 
@@ -3359,14 +4380,29 @@ more rows.
 Here is the confetti used for DW victory faces. Feel free to download it
 for yourself.
 
+
+.. image:: images/image74.png
+   :align: center
+
+
 (source: \ `this google
 doc <https://www.google.com/url?q=https://docs.google.com/document/d/1LyoDxBbtw4MUb7HirIZEaigpbJOcbwTelby7vttIAlg/edit%23heading%3Dh.dckld2q0kapk&sa=D&source=editors&ust=1782966892442816&usg=AOvVaw06w27_FA8vUBwjTWWkbu0H>`__\ ,
 image creator unknown)
+
+
+.. image:: images/image280.png
+   :align: center
+
 
 (source: 01_OMORI_BATTLE.png, basegame)
 
 In the example above, the bottom row with each stage 3 emotion is not
 used by Omori, but it is where Stressed Out sprites would be if used.
+
+
+.. image:: images/image205.png
+   :align: center
+
 
 (source: 03_KEL_BATTLE.png, basegame)
 
@@ -3403,10 +4439,20 @@ in any order you like. However, by convention, they will usually go:
 4. Angry
 5. Happy
 
+
+.. image:: images/image153.png
+   :align: center
+
+
 (source: !battle_sprout_mole.png, basegame)
 
 Above is what the formatting of most enemy spritesheets in the sv_actors
 folder will look like.
+
+
+.. image:: images/image166.png
+   :align: center
+
 
 (source: !battle_humphrey_face.png, basegame)
 
@@ -3422,11 +4468,21 @@ designs in their enemies images.
 Also, yes, the third phase of Humphrey is just his face in the files.
 Not that hard to guess, but still funny nonetheless.
 
+
+.. image:: images/image192.png
+   :align: center
+
+
 (source: !battle_basil_something.png, basegame)
 
 Most Something-related enemies can't feel emotion; therefore those
 sprites aren't included. Here is Basil's sheet, only containing neutral
 and hurt sprites, and an unused defeat sprite.
+
+
+.. image:: images/image100.png
+   :align: center
+
 
 (source: !battle_biscuit_doughie.png, basegame)
 
@@ -3448,9 +4504,17 @@ row, but like Portraits, have no limit on the amount of rows. In OMORI,
 a frame often uses multiple patterns, and therefore must be aligned
 together when animating.
 
+
+.. image:: images/image289.png
+   :align: center
+
+
 (source: e_protect_the_earth.png, basegame)
 
-`[f] <#cmnt6>`__
+
+.. image:: images/image189.png
+   :align: center
+ \ `[f] <#cmnt6>`__
 
 (source: TomatoRadio)
 
@@ -3488,11 +4552,26 @@ just sorta looks cool.
 
 Example:
 
+
+.. image:: images/image203.jpg
+   :align: center
+
+
 Original Image
 (\ `Photograph <https://www.google.com/url?q=https://www.pexels.com/photo/water-fountain-beside-green-leaf-trees-242258/&sa=D&source=editors&ust=1782966892449266&usg=AOvVaw3liujNduVxHdDoPVoakjLf>`__\  by:
 Mike Bird)
 
+
+.. image:: images/image65.png
+   :align: center
+
+
 Cropped to 640x480
+
+
+.. image:: images/image236.png
+   :align: center
+
 
 Dithered using
 \ `Ditherit <https://www.google.com/url?q=https://ditherit.com/&sa=D&source=editors&ust=1782966892449575&usg=AOvVaw0MnEsgS93851O4Ha9uSIP8>`__
@@ -3523,6 +4602,11 @@ multiple tiles, like trees and buildings. Tiles can be animated with a
 looping animation of other tiles on the sheet, which is explained in
 detail in the \ `Mapping Section <#h.uhf8h4xswr8>`__\ .
 
+
+.. image:: images/image46.png
+   :align: center
+
+
 (source: DW_SnowForest.png, basegame)
 
 Snowglobe Mountain's Tileset. Notice how all three frames of the water
@@ -3551,6 +4635,11 @@ taken some time to gather up and make a base for ya. i know,
 how handy!!! Of course, you can just edit basegame stuff, but their
 layouts are BAD! really bad oh god. so bad.
 
+
+.. image:: images/image197.png
+   :align: center
+
+
 (Source: DW_SlimegirlLairTiles.png, basegame)
 
 LOOK AT HOW BAD THIS IS!!! IT’S ALL OVER THE PLACE IT SUCKS!!! No no no,
@@ -3562,6 +4651,17 @@ live in Arizona.
 
 Now let me show you something far better!
 
+
+.. image:: images/image92.png
+   :align: center
+ 
+.. image:: images/image231.png
+   :align: center
+ 
+.. image:: images/image38.png
+   :align: center
+
+
 (Source: ME!!! and basegame stuff too… oh and my sis…)
 
 THIS!!! IS A TILE BASE!!!
@@ -3571,8 +4671,18 @@ BRIGHT??” Let me explain.
 
 Let's start with the standard base.
 
+
+.. image:: images/image92.png
+   :align: center
+
+
 If you don't need any pre-existing objects, use this as a standard!
 Anything on here you're gonna need for later. Firstly, the colors.
+
+
+.. image:: images/image219.png
+   :align: center
+
 
 (Source: ME AGAIN!!!!, but TOMATO “fixed” it by changing it to say
 cliff…)
@@ -3581,6 +4691,11 @@ Red is where your grass is going to go. In these, i've chopped off the
 extra grass, so make sure to extend your edge grass OVER the red parts
 and onto the blue, like this;
 
+
+.. image:: images/image233.png
+   :align: center
+
+
 (Source: Aseprite)
 
 OMORI tends to use the same grass for most things, but you may not want
@@ -3588,12 +4703,22 @@ to do that, of course. the dark blue is your CLIFFS. These tend to have
 some slight shading and cracking at the bottom, but it depends on the
 area.
 
+
+.. image:: images/image155.png
+   :align: center
+
+
 (Source: edit of HS_PIREFLAIFORIST.png, basegame?)
 
 Green is your water. For animated water, you have to manually add the
 frames through tiled. I'm about 90% sure someone explained this in the
 tiled part, but the frames go in this order && have a frame delay of
 approx. 200 ms of delay. I don’t know man, you know it when you see it.
+
+
+.. image:: images/image107.png
+   :align: center
+
 
 (Source: The green gunk from my gunk palace)
 
@@ -3609,10 +4734,20 @@ Cyan are your paths and the random debris that are around. Sprinkling
 them around helps a lot. And as I said with the red, the grass can and
 will go over the cyan. This is the farthest inward basegame does.
 
+
+.. image:: images/image15.png
+   :align: center
+
+
 Now almost everything else is self explanatory. Grass, trees, rocks, you
 know the deal. Just be aware that you may not need trees that are a
 different color, but i'd seriously recommend it. Even if it's only a
 minor change, it can add a lot to a map.
+
+
+.. image:: images/image51.png
+   :align: center
+
 
 (Source: map159.png, basegame, compiled by an rph tool
 \ `idr <https://www.google.com/url?q=https://github.com/rphsoftware/omori-map-preview-renderer/actions/runs/20416117980&sa=D&source=editors&ust=1782966892456077&usg=AOvVaw2mM48N5aA-qLt_z_Tb6-HF>`__\ ` the
@@ -3627,10 +4762,20 @@ kind of color picker (or The Eyedropper Tool ) to check. i’d personally
 cut them and put them on another layer to be able to check them at any
 time
 
+
+.. image:: images/image33.png
+   :align: center
+
+
 (Source: I think they were like those little plastic connectors that
 autistic kids really like K’NEK THEY CALLED K’NEK!!!)
 
 here's a lovely test map TOMATO did to show how all this works
+
+
+.. image:: images/image101.png
+   :align: center
+
 
 (Source: AGHHHITBURNSITBURNSAGHHHHHHHHHHHH.png)
 
@@ -3639,7 +4784,17 @@ now the outside and inside bases.
 same stuff, but now with stolen goods! There are a lot of
 basegame assets here to edit, all laid out by type.
 
+
+.. image:: images/image174.png
+   :align: center
+
+
 (Source: I made it the \*@(# up)
+
+
+.. image:: images/image172.png
+   :align: center
+
 
 (Source: I made it the @#@% up again)
 
@@ -3658,6 +4813,11 @@ tilemap. This is for depth reasons, but means that you may need to make
 some guesses for what the player would look like when mapping, but you
 do know what PINKER would look like!!! She’s the one with cooties, so i
 had to put her in the biohazard box, but i think you’re safe from those…
+
+
+.. image:: images/image208.png
+   :align: center
+
 
 ok have fun \\{\\{\\sinv[1]byyeeee\\sinv[0]
 
@@ -3685,13 +4845,28 @@ Parallaxes are looping images used as map backgrounds. They’re stored in
 the "parallaxes" folder. They are primarily used for the sky in
 Headspace and Faraway, and also as backgrounds for Black Space maps.
 
+
+.. image:: images/image214.png
+   :align: center
+
+
 (source: Space_parallax.png, basegame)
 
 Headspace's starry sky.
 
+
+.. image:: images/image256.png
+   :align: center
+
+
 (source: sunset_sky.png, basegame)
 
 Faraway's sunset sky.
+
+
+.. image:: images/image19.png
+   :align: center
+
 
 (source: !parallax_glitch.png, basegame)
 
@@ -3726,14 +4901,29 @@ This includes but is not limited to:
 - Art popups
 - Lighting
 
+
+.. image:: images/image124.png
+   :align: center
+
+
 (source: release_stress[5x5].png, basegame)
 
 Release Stress Cutscene.
+
+
+.. image:: images/image223.png
+   :align: center
+
 
 (source: pictures_fa_extra.png, basegame)
 
 A sheet of some of Faraway Town’s art popups. Yes, there are some
 Dreamworld pictures mixed in, too. :D
+
+
+.. image:: images/image235.png
+   :align: center
+
 
 (source: lighting_overlay.png, basegame)
 
@@ -3773,6 +4963,11 @@ used version.
 As the names suggest, each sheet is used for a specific type of item.
 Depending on what the item is marked as in game, it calls the image from
 that specific sheet.
+
+
+.. image:: images/image85.png
+   :align: center
+
 
 (source: itemWeapons.png, basegame)
 
@@ -3818,6 +5013,17 @@ Dreams <https://www.google.com/url?q=https://mods.one/mod/brokendreams&sa=D&sour
 or many other mods, then you’ve seen Windowskins in use. These are
 images in img/system that determine the appearance of the various
 windows in the game, such as text boxes and menus.
+
+
+.. image:: images/image260.png
+   :align: center
+ 
+.. image:: images/image204.png
+   :align: center
+ 
+.. image:: images/image20.png
+   :align: center
+
 
 (sources (left to right): Window.png, basegame \| REDACTED.png,
 Unreleased Project by TomatoRadio \| Window_Guide.png, TomatoRadio)
@@ -3953,6 +5159,11 @@ individual images that can be called separately.
 
 Let’s take a look at one from the basegame to better explain:
 
+
+.. image:: images/image3.png
+   :align: center
+
+
 (Source: battleATLAS.png, basegame)
 
 This is the atlas that stores the sprites for the Title Screen! Looking
@@ -3964,6 +5175,11 @@ Now let’s see what actually breaks down this image.
 Heading over to your playtest’s data, you’ll find a file called
 Atlas.yaml. Open it up in your editor of choice and you’ll be greeted
 with this sight:
+
+
+.. image:: images/image98.png
+   :align: center
+
 
 (Source: atlas.yaml, basegame) (I feel like this one should be obvious…)
 
@@ -4008,6 +5224,11 @@ facesets or badges.
 Here’s an example of them being used for the State Icons of
 \ `parallels <https://www.google.com/url?q=https://mods.one/mod/parallels&sa=D&source=editors&ust=1782966892476621&usg=AOvVaw2ma29n5cXJDlB198HLTGul>`__\ .
 
+
+.. image:: images/image119.png
+   :align: center
+
+
 (Source: parallels, sprites created by TomatoRadio)
 
 When adding a new atlas, it's a good idea to get the
@@ -4030,11 +5251,19 @@ the img/atlases folder.
 States
 ======
 
+
+.. image:: images/image7.png
+   :align: center
+
+
 “Oh boy, I’m going to learn about states? Aren’t those how battle
 emotions are stored? Can I make my own emotions? I’m gonna make so many
 cool emotions for the player to use!”
 
-r/OMORI - thousand-yard sunny (im surprised nobody has done this) 
+
+.. image:: images/image87.png
+   :align: center
+  
 
 (source: image by u/Whisp_Is_My_Waifu)
 
@@ -4049,6 +5278,11 @@ to learn about States, and that does include learning about emotions.
 But before we can start making new feelings for our friends and foes to
 feel, we have to learn the basics of how states work, since they are
 much more than just emotions.
+
+
+.. image:: images/image88.png
+   :align: center
+
 
 (source: TomatoRadio)
 
@@ -4089,6 +5323,11 @@ Traits are modifiers placed onto the battler inflicted with the state.
 You can add as many as you like in one state. An \* indicates the trait
 is not used in OMORI.
 
+
+.. image:: images/image158.png
+   :align: center
+
+
 (all trait windows source: TomatoRadio)
 
 Element Rate: A percentage based multiplier on the damage taken from the
@@ -4105,12 +5344,22 @@ the notetags that most of OMORI uses.)
 
 State Resist: Become immune to the listed state.
 
+
+.. image:: images/image10.png
+   :align: center
+
+
 Parameter: A percentage based multiplier on the listed stat.
 
 Ex-Parameter: A percentage based adder on the listed stat.
 
 Sp-Parameter: A percentage based multiplier on the listed stat.
 All of these parameters will be detailed in the following section.
+
+
+.. image:: images/image114.png
+   :align: center
+
 
 Attack Element: Adds the listed element to any skills used. Mainly used
 for Emotions.
@@ -4126,6 +5375,11 @@ the notetags that most of OMORI uses.)
 Attack Times +: Repeats the skill used. So +1 makes the skill happen
 twice.
 
+
+.. image:: images/image6.png
+   :align: center
+
+
 \*Add Skill Type: Adds the listed skill type to the available skills.
 This doesn't really apply to OMORI.
 
@@ -4138,6 +5392,11 @@ through troop events in OMORI.
 
 \*Seal Skill: Seals use of the listed skill. Works fine, it's just not
 used in OMORI.
+
+
+.. image:: images/image195.png
+   :align: center
+
 
 \*Equip Weapon: Unlocks the inputted weapon type. This would allow for
 characters to equip each other's weapons if out of battle.
@@ -4152,6 +5411,11 @@ states, but is used for Omori and Sunny’s weapons.
 \*Seal Equip: Seals the inputted equipment type.
 
 \*Slot Type: Meant for dual-wielding. Doesn't work in OMORI.
+
+
+.. image:: images/image11.png
+   :align: center
+
 
 \*Action Times +: A percentage based chance that an actor will execute a
 command a second time. These can stack.
@@ -4461,6 +5725,11 @@ What I am going to teach is what I believe are the minimum requirements
 to get emotions to function, meaning there are likely cases where your
 emotion will break.
 
+
+.. image:: images/image103.png
+   :align: center
+
+
 (source: TomatoRadio)
 
 This is the State for the Ecstatic emotion.
@@ -4747,6 +6016,11 @@ Plot Armor
 Weapons & Charms
 ================
 
+
+.. image:: images/image59.png
+   :align: center
+
+
 You know, after all that JavaScript and probably buggy explanations of
 how states work, it’d be nice to explain something easy.
 
@@ -4756,6 +6030,11 @@ Oh, thank god, an easy question.
 
 Yes. Lucky for both of us, Weapons and Charms are some of the easiest
 things to implement in OMORI, so this will be brief.
+
+
+.. image:: images/image213.png
+   :align: center
+
 
 (source: TomatoRadio)
 
@@ -4789,6 +6068,11 @@ And that’s it really. If only everything was this simple.
 Skills & Items
 ==============
 
+
+.. image:: images/image49.png
+   :align: center
+
+
 And now we’re right back into the hole of complexity. But at least these
 are more fun, at least in my opinion. You may already know of the skills
 the party can learn in OMORI, but in modding, Skills are not just those,
@@ -4799,6 +6083,11 @@ perform. So this means we can do a lot with these.
 
 General Skill Configuration
 ---------------------------
+
+
+.. image:: images/image181.png
+   :align: center
+
 
 (source: TomatoRadio)
 
@@ -5284,6 +6573,11 @@ depending on if it’s a regular or key item.
 Party Members : Only the bare minimum for them
 ==============================================
 
+
+.. image:: images/image84.png
+   :align: center
+
+
 NOTE: Party Members are inherently very complex and need so much more
 than this. They need skills, equipment, dialogue, tag photos, tag
 abilities, battle graphics, etc. BUT, those are either;
@@ -5411,6 +6705,11 @@ OneMaker.
 Enemies
 =======
 
+
+.. image:: images/image201.png
+   :align: center
+
+
 So. You know how to make dialogue, events, maps, art(or at least how to
 format it), states, equipment, skills, even party members(technically).
 You’re building quite the repertoire. But now I’m going to introduce
@@ -5418,7 +6717,10 @@ something even worse than that.
 
 Making enemies.
 
-r/OMORI - thousand-yard sunny (im surprised nobody has done this) 
+
+.. image:: images/image87.png
+   :align: center
+  
 
 (source: image by u/Whisp_Is_My_Waifu, same as last time)
 
@@ -5435,10 +6737,20 @@ This will be brief since I already explained this in the section in
 for your enemies. You’ll need an image of all frames for your enemy
 arranged like below in the “img/sv_actors” folder.
 
+
+.. image:: images/image127.png
+   :align: center
+
+
 (source: !battle_snow_angel.png, basegame)
 
 Then you’ll want just one frame of the neutral state as a separate in
 the “img/enemies” folder, like pictured below.
+
+
+.. image:: images/image75.png
+   :align: center
+
 
 (source: !battle_snow_angel.png, basegame)
 
@@ -5458,6 +6770,11 @@ place we’ll have to go is in the Database’s enemies tab. Then, just
 scroll down until you reach empty space (you’ll need at least 4 slots)
 and start working. For demonstration, I’ll just be showing the Snow
 Angel’s page.
+
+
+.. image:: images/image145.png
+   :align: center
+
 
 (source: TomatoRadio)
 
@@ -5777,6 +7094,11 @@ the Boss’s slot.
 
 It should once you’re done look like this.
 
+
+.. image:: images/image54.png
+   :align: center
+
+
 (source: TomatoRadio)
 
 So now we have our boss, but how do we actually fight it? Well, that’s
@@ -5794,6 +7116,11 @@ tiered bosses.
 
 Welcome to the Troops tab! The first thing you’ll want to do is add your
 boss in here. You’ll want to select their neutral form.
+
+
+.. image:: images/image281.png
+   :align: center
+
 
 (source: TomatoRadio)
 
@@ -5850,6 +7177,11 @@ of this less daunting.
 Community Resources for Mod Making
 ==================================
 
+
+.. image:: images/image55.png
+   :align: center
+
+
 Now. For the final step to this guide. Up until now, we’ve been mostly
 going under the assumption that you have just been using the
 basegame and your own assets, which is commendable. However, we are a
@@ -5867,6 +7199,11 @@ Plugins are super easy to add. Plugins are stored as .js files. These
 are placed in the js/plugins folder.
 
 Then in RPG Maker MV, open up this tab
+
+
+.. image:: images/image164.png
+   :align: center
+
 
 ^This one
 
@@ -6170,6 +7507,10 @@ to render.
 Note: You will want to extract your images at 100% scale, compared to
 the standard 150%.
 
+
+.. image:: images/image21.png
+   :align: center
+
 (source: TomatoRadio)
 
 .. _h.6nxq5acxasz1:
@@ -6182,7 +7523,17 @@ allowing much more room for writing out in the Notes tab and other uses.
 These can be reduced back down if they are too large for your display in
 the OneMaker’s Window Sizing Settings.
 
+
+.. image:: images/image246.png
+   :align: center
+
+
 (source: TomatoRadio)
+
+
+.. image:: images/image136.png
+   :align: center
+
 
 (path to OneMaker settings, source: TomatoRadio)
 
@@ -6193,6 +7544,11 @@ The Control Self Variable, Switch Statement, and Sound Manager commands
 are also only available if the OneMakerMV-Core plugin is present,
 otherwise they will be grayed out, however the Custom Advanced commands
 will still be available.
+
+
+.. image:: images/image123.png
+   :align: center
+
 
 (source: TomatoRadio)
 
@@ -6214,6 +7570,11 @@ This effectively means that scripts will only be checked when
 switches/variables are changed, actors/items are changed, or when the
 map is loaded.
 
+
+.. image:: images/image62.png
+   :align: center
+
+
 (Source: TomatoRadio)
 
 .. _h.3yo6w2oxg5ut:
@@ -6232,9 +7593,19 @@ Show Text
 Show Text now uses a 106x106 pixel grid when selecting faces, making it
 more compatible with OMORI’s Facesets.
 
+
+.. image:: images/image90.png
+   :align: center
+
+
 (Source: TomatoRadio)
 
 Previews will also now display in OMORI’s standard typeface as well.
+
+
+.. image:: images/image117.png
+   :align: center
+
 
 (Source: TomatoRadio)(Note: This will not display edited versions of the
 font or alternative fonts such as Stranger’s font)
@@ -6246,6 +7617,11 @@ Control Variables
 
 Variables can now be set to be equal to a Self Variable.
 
+
+.. image:: images/image82.png
+   :align: center
+
+
 (Source: TomatoRadio)
 
 .. _h.x8naxeui52at:
@@ -6254,6 +7630,11 @@ Control Self Switch
 ^^^^^^^^^^^^^^^^^^^
 
 Self Switches may now include all letters of the alphabet!
+
+
+.. image:: images/image293.png
+   :align: center
+
 
 (Source: TomatoRadio)
 
@@ -6267,6 +7648,11 @@ type normally exclusive to Scripts. They behave just like normal
 Variables, except attached to an Event, just like a Self Switch. You are
 allocated 10 slots for Self Variables.
 
+
+.. image:: images/image104.png
+   :align: center
+
+
 (Source: TomatoRadio)
 
 .. _h.g8388c4bilbs:
@@ -6275,6 +7661,11 @@ Conditional Branch
 ^^^^^^^^^^^^^^^^^^
 
 Conditional Branches now allow you to check Self Variables.
+
+
+.. image:: images/image129.png
+   :align: center
+
 
 (Source: TomatoRadio)
 
@@ -6300,6 +7691,11 @@ MV internally uses to refer to direction, being 2 for Down, 4 for Left,
 6 for Right, and 8 for Up. These are based on a number pad on
 calculators and phones.)
 
+
+.. image:: images/image135.png
+   :align: center
+
+
 (Source: TomatoRadio)
 
 .. _h.81s9t8pysevr:
@@ -6308,6 +7704,11 @@ Comment
 ^^^^^^^
 
 You may now add virtually infinite lines to Comments.
+
+
+.. image:: images/image187.png
+   :align: center
+
 
 (Source: TomatoRadio)
 
@@ -6319,6 +7720,11 @@ Set Movement Route
 You can now display the Map and click on Tiles and Events to show their
 coordinates and IDs, which is helpful for scripting.
 
+
+.. image:: images/image132.png
+   :align: center
+
+
 (Source: TomatoRadio)
 
 .. _h.bsngrc3wfqbc:
@@ -6327,6 +7733,11 @@ Wait
 ^^^^
 
 You can now increase the time to 99999 frames or ~27.7 minutes.
+
+
+.. image:: images/image160.png
+   :align: center
+
 
 (Source: TomatoRadio)
 
@@ -6342,6 +7753,11 @@ command, plus some bonuses that weren’t originally there. These are:
 - Save and Replay BGM and BGS to 4 slots each
 - Pitches of a sound can be between 5% and 200% instead of 50% and 150%.
 
+
+.. image:: images/image162.png
+   :align: center
+
+
 (Source: TomatoRadio)
 
 .. _h.bo95qepvw8az:
@@ -6350,6 +7766,11 @@ Scripts
 ^^^^^^^
 
 You can now use virtually infinite lines in a Script command.
+
+
+.. image:: images/image277.png
+   :align: center
+
 
 (Source: TomatoRadio)
 
@@ -6364,14 +7785,29 @@ from your YAMLs directly instead of having to type them out.
 Select the Message to display here, with the option of adding Choices
 like so;
 
+
+.. image:: images/image272.png
+   :align: center
+
+
 (Source: TomatoRadio)
 
 Then select the exact message from this menu;
+
+
+.. image:: images/image2.png
+   :align: center
+
 
 (Source: TomatoRadio)
 
 And then it gets converted into a Plugin Command just like how the
 basegame does it!
+
+
+.. image:: images/image257.png
+   :align: center
+
 
 (Source: TomatoRadio)
 
@@ -6380,9 +7816,20 @@ basegame does it!
 New - Transfer Player Script
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A new command, this automates the creation of Map Teleports. Simply
-input your location and other applicable information and it will be
-converted into a Script.
+
+.. image:: images/image70.png
+   :align: center
+ A new command, this
+automates the creation of Map Teleports. Simply input your location and
+other applicable information and it will be converted into a Script.
+
+
+.. image:: images/image110.png
+   :align: center
+ 
+.. image:: images/image118.png
+   :align: center
+
 
 (Source: TomatoRadio)
 
@@ -6393,6 +7840,16 @@ New - Actor Movement Animations
 
 A new command, this allows you to automate the setting of walking and
 running sprites for your Actors.
+
+
+.. image:: images/image188.png
+   :align: center
+
+
+
+.. image:: images/image102.png
+   :align: center
+
 
 (Source: TomatoRadio)
 
@@ -6409,6 +7866,11 @@ Troop Events are granted new Conditions to work with. These include:
 - Checks for an Item/Weapon/Charm in the party’s inventory
 - Scripts
 
+
+.. image:: images/image291.png
+   :align: center
+
+
 (Source: TomatoRadio)
 
 .. _h.o70bzabhxs0m:
@@ -6418,6 +7880,11 @@ Expanded Event Searcher
 
 The Event Searcher can now search the Names, Note, Comments, and Scripts
 of Events.
+
+
+.. image:: images/image77.png
+   :align: center
+
 
 (Source: TomatoRadio)
 
@@ -6435,6 +7902,11 @@ MV/\_hijack_root/qml/Images and then create a folder named Custom.
 Capitals matter!
 
 Here is an example of my own image that I use:
+
+
+.. image:: images/image34.png
+   :align: center
+
 
 (Source: TomatoRadio)
 
@@ -6572,6 +8044,11 @@ when it actually gets swapped out.
 
 Thank You For Reading!
 ======================
+
+
+.. image:: images/image143.png
+   :align: center
+
 
 Thank you for reading this guide! We hope that with an overarching guide
 that covers nearly all the core aspects of OMORI modding we can get more
