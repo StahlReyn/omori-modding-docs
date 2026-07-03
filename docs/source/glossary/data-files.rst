@@ -14,130 +14,100 @@ This page documents useful information about
 files found in the **www_decrypt/data/** subfolder. More info can be
 found `here <./>`__.
 
-Actors.json 
-^^^^^^^^^^^^
 
-Seems to store information on your team (Omori, Kel, Aubrey, Hero),
-which items they carry (initially), what level they have, and more.
+.. glossary::
+    Actors.json
+        Seems to store information on your team (Omori, Kel, Aubrey, Hero),
+        which items they carry (initially), what level they have, and more.
 
-Animations.json 
-^^^^^^^^^^^^^^^^
+    Animations.json
+        Animation data for the individual sprites being rendered. Might best be
+        edited by using RPG Maker instead of manually.
 
-Animation data for the individual sprites being rendered. Might best be
-edited by using RPG Maker instead of manually.
+    Armors.json
+        :bdg-info:`Translation`
 
-Armors.json 
-^^^^^^^^^^^^
+        Charms/equipment descriptions, sprites, and properties.
 
-*Important for Translation*
+    Atlas.yaml
+        *TBA*
 
-Charms/equipment descriptions, sprites, and properties.
+    Classes.json
+        *TBA*
 
-Atlas.yaml 
-^^^^^^^^^^^
+    CommonEvents.json
+        Data for many different events (basically any action you can do). Seems
+        to be on maps only (not in combat).
 
-*TBA*
+        **Examples:** Opening Blackspace doors, horror effects (screen
+        glitches), waking up animation, looking at photos, Kel throwing…
 
-Classes.json 
-^^^^^^^^^^^^^
+    Enemies.json
+        :bdg-info:`Translation`
 
-*TBA*
+        Enemy names, sprites, and properties.
 
-CommonEvents.json 
-^^^^^^^^^^^^^^^^^^
+    Items.json
+        :bdg-info:`Translation`
 
-Data for many different events (basically any action you can do). Seems
-to be on maps only (not in combat).
+        Item names, descriptions, sprites, and properties.
 
-**Examples:** Opening Blackspace doors, horror effects (screen
-glitches), waking up animation, looking at photos, Kel throwing…
+    MapXXX.json
+        :bdg-info:`Translation`
 
-Enemies.json 
-^^^^^^^^^^^^^
+        Map files describe all places and rooms in OMORI. *displayName*: This
+        field will be used when creating or overwriting a save file. *todo,
+        there's a LOT more about these files* For anything that goes beyond
+        small modifications, you definitely want to use RPG Maker: `Mapping in
+        OMORI using RPG Maker. <https://omori.wiki.mods.one/modding:mapping>`__
 
-*Important for Translation*
+    MapInfos.json
+        TBA
 
-Enemy names, sprites, and properties.
+    Notes.yaml
+        TBA
 
-Items.json 
-^^^^^^^^^^^
+    Quests.yaml
+        TBA
 
-*Important for Translation*
+    Skills.json
+        :bdg-info:`Translation`
 
-Item names, descriptions, sprites, and properties.
+        Skill names, descriptions, sprites, and properties.
 
-MapXXX.json 
-^^^^^^^^^^^^
+    States.json
+        :bdg-info:`Translation`
 
-*Important for Translation*
+        State change names (emotions, dying, resurrection etc.), descriptions,
+        and properties.
 
-Map files describe all places and rooms in OMORI. *displayName*: This
-field will be used when creating or overwriting a save file. *todo,
-there's a LOT more about these files* For anything that goes beyond
-small modifications, you definitely want to use RPG Maker: `Mapping in
-OMORI using RPG Maker. <https://omori.wiki.mods.one/modding:mapping>`__
+        **Examples:** "X became TOAST!", "X feels ECSTATIC!", "X's SPEED fell!"
 
-MapInfos.json 
-^^^^^^^^^^^^^^
+    System.json
+        TBA
 
-TBA
+    Tilesets.json
+        :bdg-muted:`Unused`
 
-Notes.yaml 
-^^^^^^^^^^^
+        Tileset for rpgmaker. OMORI stores map externally and uses Tiled.
 
-TBA
+    Troops.json
+        Enemy data. HP among other things.
 
-Quests.yaml 
-^^^^^^^^^^^^
+    Weapons.json
+        :bdg-info:`Translation`
 
-TBA
+        Weapon names, descriptions, and other properties.
 
-Skills.json 
-^^^^^^^^^^^^
+    Conflicted copies
+        :bdg-muted:`Unused`
+        
+        Typically named *[…] OMORI Dev's conflicted copy […].json*
 
-*Important for Translation*
+        These files are most likely unused and left there by accident.
 
-Skill names, descriptions, sprites, and properties.
+.. note::
 
-States.json 
-^^^^^^^^^^^^
-
-*Important for Translation*
-
-State change names (emotions, dying, resurrection etc.), descriptions,
-and properties.
-
-**Examples:** "X became TOAST!", "X feels ECSTATIC!", "X's SPEED fell!"
-
-System.json 
-^^^^^^^^^^^^
-
-TBA
-
-Tilesets.json 
-^^^^^^^^^^^^^^
-
-TBA
-
-Troops.json 
-^^^^^^^^^^^^
-
-Enemy data. HP among other things.
-
-Weapons.json 
-^^^^^^^^^^^^^
-
-*Important for Translation*
-
-Weapon names, descriptions, and other properties.
-
-Conflicted copies 
-^^^^^^^^^^^^^^^^^^
-
-Typically named *[…] OMORI Dev's conflicted copy […].json*
-
-These files are most likely unused and left there by accident.
-
-{% hint style="info" %} In later versions of OMORI, these file are
-removed since then. This might be important to old mods when using
-Bundletool to detect changes. {% endhint %}
+    In later versions of OMORI, these file are
+    removed since then. This might be important to old mods when using
+    Bundletool to detect changes.
