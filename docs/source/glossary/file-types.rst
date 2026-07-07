@@ -218,3 +218,56 @@ other files, where the mod's file will be loaded instead of the normal
 game file (Excluding delta files) and not *in addition to*, as is
 with JS files. `More Info on JS in
 OMORI <https://omori.wiki.mods.one/modding:file-types#javascript_addendum>`__.
+
+File Conversion
+---------------------------
+
+.. warning::
+
+  The following assumes that you know file handling to some degree.
+  This will use command line and ffmpeg as example of bulk file conversion,
+  For small use case there are other file converter with UI that may help,
+  such as Handbreak or PNGGauntlet.
+
+Video compression - mp4 to webm
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Optimal mp4 to webm video compression parameter. Used in the command line.
+
+.. code::
+
+  ffmpeg -i [filename].mp4 -c:v libvpx-vp9 -crf 23 -vf "scale=640:480,setsar=1,fps=fps=30" -c:a libvorbis -b:a 128k output.webm
+
+Audio compression - ogg files
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Compress ogg files. Audio is one of largest space takers, and usually
+ogg files are more “higher quality” for the same bitrate as mp4.
+
+RPGMaker MV does not like libopus, so libvorbis is used.
+
+.. code::
+
+  ffmpeg -i inputFile.wav -c:a libvorbis -b:a 128k output.ogg
+
+For windows batch processing can be done. Will go through all audio in
+the folder the terminal is in, outputting to a folder “result” (also
+need to be created beforehand):
+
+.. code::
+  
+  for %i in (*.ogg) do ffmpeg -i "%i" -c:a libvorbis -b:a 128k "result/%i"
+
+
+Copy audio metadata
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This is done in a command line folder full of ORIGINAL audios, and has a
+dummy folder result1 (compressed audio with missing meta) and result2
+(the destination).
+
+Windows:
+
+.. code::
+  
+  for %i in (*.ogg) do ffmpeg -i "%i" -i "result/%i" -map 0 -map_metadata 1 -c copy -movflags use_metadata_tags "result2/%i"

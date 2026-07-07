@@ -70,12 +70,13 @@ variables to insert multiple in a loop. For example:
 
 .. code:: javascript
 
-  let list = [] for (let i = 10; i <= 50; i++) {
+  let list = []
+  for (let i = 10; i <= 50; i++) {
     list.push({code: 356, indent: 0, parameters: ['ShowMessage FILENAME.message_${i}']}) 
   } 
   $gameMap._interpreter.setupChild(list, $gameMap._ interpreter._ eventId)
 
-This example runs showing message_10 to message_50 from``FILENAME.yaml``.
+This example runs showing message_10 to message_50 from ``FILENAME.yaml``.
 
 .. note::
 
@@ -93,7 +94,7 @@ Useful for setting follower location after cutscene.
 Here's example of moving player to 18, 16, having everyone facing up and
 behind the player:
 
-.. code:: javascript
+.. code:: typescript
 
   $gamePlayer.locate(18, 16);
   $gamePlayer.setDirection(8);
@@ -132,7 +133,7 @@ single target when ran through EVAL.
 
 To make some action affect a group in single line do the following in the notes:
 
-.. code:: code
+.. code::
 
   <whole action>
     eval: BattleManager.makeActionTargets('actors').forEach(x=>x.someStuff())
@@ -182,71 +183,6 @@ Show Message, Add Choices, Show Choices
   AddChoice yaml_file.message_name label AddChoice XX_GENERAL.message_4 YES
   ShowChoices num ShowChoices 2
 
-
-Omori Specific
------------------------------------
-
-YAML Message
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Script version of ShowMessage command
-
-.. code:: javascript
-
-  // Game_Message: showLanguageMessage(string) 
-  $gameMessage.showLanguageMessage("XX_GENERAL.message_1");
-
-Emotion Checks
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Base game emotion checks. Note that this checks hard coded list of states.
-
-.. code:: javascript
-
-  // Game_Battler: isEmotionAffected(string) 
-  $gameActor.actor(1).isEmotionAffected("happy")
-
-  // Game_Battler: isAnyEmotionAffected()  
-  $gameActor.actor(1).isAnyEmotionAffected()
-
-Javascript
------------------------------------
-
-The following is useful JavaScript to know for general use.
-This is intended for common JS that is used in places such as EVAL note tags in Enemy AI.
-
-Arrays
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Working with Arrays, common with AI evaluation.
-
-.. code:: javascript
-
-  every(callbackFn)
-  // Example: Check if ALL switch 1,2,3 is on 
-  [1, 2, 3].every((x) => $gameSwitches.value(x))
-
-  some(callbackFn)
-  // Example: Check if ANY of switch 1,2,3 is on 
-  [1, 2, 3].some((x) => $gameSwitches.value(x)) 
-  // Example: Check if ANY party member has weapon 203 
-  $gameParty.members().some((actor) => actor.hasWeapon($dataWeapons[203]));
-
-  forEach(callbackFn)
-  // Example: Add Happy State to EACH Alive Enemies 
-  $gameTroops.aliveMembers().forEach((enemy) => enemy.addState(5));
-  
-  reduce((accumulator, currentValue) => accumulator + currentValue, initialValue)
-  // Example: Count amount of Happy Enemies 
-  $gameTroops.aliveMembers().reduce((count, battler) => count + battler.isStateAffected(5), 0);
-
-
-Get username of logged in user
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. code:: javascript
-
-  const userName = process.env.WINEUSERNAME ? process.env.WINEUSERNAME : require('os').userInfo().username;
 
 
 Event Notetags
@@ -381,56 +317,70 @@ Shaking / Trembling
   Fuku_Plugins.EventTremble.start(this._eventId,3,1)
   Fuku_Plugins.EventTremble.stop(this._eventId)
 
-Technical File Handling
----------------------------
 
-.. warning::
 
-  The followoing assumes that you know file handling to some degree.
-  This will use command line and ffmpeg as example of bulk file conversion,
-  For small use case there are other file converter with UI that may help,
-  such as Handbreak or PNGGauntlet.
+Omori Specific
+-----------------------------------
 
-Video compression - mp4 to webm
+YAML Message
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Optimal mp4 to webm video compression parameter. Used in the command line.
+Script version of ShowMessage command
 
-.. code:: command
+.. code:: javascript
 
-  ffmpeg -i [filename].mp4 -c:v libvpx-vp9 -crf 23 -vf "scale=640:480,setsar=1,fps=fps=30" -c:a libvorbis -b:a 128k output.webm
+  // Game_Message: showLanguageMessage(string) 
+  $gameMessage.showLanguageMessage("XX_GENERAL.message_1");
 
-Audio compression - ogg files
+Emotion Checks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Compress ogg files. Audio is one of largest space takers, and usually
-ogg files are more “higher quality” for the same bitrate as mp4.
+Base game emotion checks. Note that this checks hard coded list of states.
 
-RPGMaker MV does not like libopus, so libvorbis is used.
+.. code:: javascript
 
-.. code:: command
+  // Game_Battler: isEmotionAffected(string) 
+  $gameActor.actor(1).isEmotionAffected("happy")
 
-  ffmpeg -i inputFile.wav -c:a libvorbis -b:a 128k output.ogg
+  // Game_Battler: isAnyEmotionAffected()  
+  $gameActor.actor(1).isAnyEmotionAffected()
 
-For windows batch processing can be done. Will go through all audio in
-the folder the terminal is in, outputting to a folder “result” (also
-need to be created beforehand):
+Javascript
+-----------------------------------
 
-.. code:: command
+The following is useful JavaScript to know for general use.
+This is intended for common JS that is used in places such as EVAL note tags in Enemy AI.
+
+Arrays
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Working with Arrays, common with AI evaluation.
+
+.. code:: javascript
+
+  every(callbackFn)
+  // Example: Check if ALL switch 1,2,3 is on 
+  [1, 2, 3].every((x) => $gameSwitches.value(x))
+
+  some(callbackFn)
+  // Example: Check if ANY of switch 1,2,3 is on 
+  [1, 2, 3].some((x) => $gameSwitches.value(x)) 
+  // Example: Check if ANY party member has weapon 203 
+  $gameParty.members().some((actor) => actor.hasWeapon($dataWeapons[203]));
+
+  forEach(callbackFn)
+  // Example: Add Happy State to EACH Alive Enemies 
+  $gameTroops.aliveMembers().forEach((enemy) => enemy.addState(5));
   
-  for %i in (*.ogg) do ffmpeg -i "%i" -c:a libvorbis -b:a 128k "result/%i"
+  reduce((accumulator, currentValue) => accumulator + currentValue, initialValue)
+  // Example: Count amount of Happy Enemies 
+  $gameTroops.aliveMembers().reduce((count, battler) => count + battler.isStateAffected(5), 0);
 
 
-Copy audio metadata
+Get username of logged in user
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This is done in a command line folder full of ORIGINAL audios, and has a
-dummy folder result1 (compressed audio with missing meta) and result2
-(the destination).
+.. code:: javascript
 
-Windows:
-
-.. code:: command
-  
-  for %i in (*.ogg) do ffmpeg -i "%i" -i "result/%i" -map 0 -map_metadata 1 -c copy -movflags use_metadata_tags "result2/%i"
+  const userName = process.env.WINEUSERNAME ? process.env.WINEUSERNAME : require('os').userInfo().username;
 

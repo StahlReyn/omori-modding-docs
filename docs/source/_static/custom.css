@@ -1,0 +1,13 @@
+/* Change font for code blocks */
+.rst-content .highlight pre, 
+.rst-content pre.literal-block {
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,Courier,monospace !important;
+    font-size: 14px !important;
+}
+
+/* Optional: Change font for inline code snippets (`like this`) */
+.rst-content code.literal, 
+.rst-content tt.literal {
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,Courier,monospace !important;
+    font-size: 13px !important;
+}

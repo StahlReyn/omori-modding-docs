@@ -34,4 +34,4 @@ Build and Serve::
 Auto build can be done by::
 
     pip install sphinx-autobuild
-    sphinx-autobuild docs docs/build/html
+    sphinx-autobuild docs/source docs/build/html
