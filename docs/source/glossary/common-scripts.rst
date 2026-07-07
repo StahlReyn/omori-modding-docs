@@ -183,7 +183,27 @@ Show Message, Add Choices, Show Choices
   AddChoice yaml_file.message_name label AddChoice XX_GENERAL.message_4 YES
   ShowChoices num ShowChoices 2
 
+Camera
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+``[SPEED]`` is an optional parameter for a number representing how fast
+the camera moves. 800 is the default, lower numbers increase the speed
+while higher numbers decrease it.
+
+``CAM PLAYER [SPEED]``
+  Focuses the camera onto the player.
+
+``CAM EVENT [ID] [SPEED]``
+  Moves the camera to an event. The event ID is the number 
+  at the bottom right of the screen after selecting an event.
+
+``CAM [X] [Y] [SPEED]``
+  Moves the camera to the x and y coordinates set.
+
+``CAM DISABLE``
+  Disables custom camera movement, returning it to default (camera follows the player).
+
+  It may be good idea to pair with ``CAM PLAYER`` and ``Wait`` block first for smooth transition.
 
 Event Notetags
 -----------------------------------

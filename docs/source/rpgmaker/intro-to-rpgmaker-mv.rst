@@ -1,5 +1,5 @@
-⭐ Intro to RPG Maker MV
-========================
+Intro to RPGMaker MV
+=====================
 
 *Omori was created in RPG Maker MV, and with a playtest folder you can
 open the game in the application and edit it.*
@@ -9,9 +9,11 @@ and playtest a cloned version of the game in RPG Maker MV. Through this,
 you can modify and create maps, events, player and enemy data, and much
 more. 
 
-**Note: If you or your team are using github for mod version control,
-please make sure to pull the repository changes before opening the
-project in RPG Maker MV.**
+.. note::
+
+   If you or your team are using github for mod version control,
+   please make sure to pull the repository changes before opening the
+   project in RPG Maker MV.
 
 Opening the Game in RPG Maker MV
 --------------------------------
@@ -29,31 +31,7 @@ RPG Maker Tools
 Below is a diagram annotating the different essential tools that can be
 used on an Omori RPG Maker project:
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   <p>
-
-RPG Maker MV project window, annotated
-
-.. raw:: html
-
-   </p>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+<PICTURE HERE>
 
 Most of the buttons can be used for Omori modding, but the tools that
 aren't highlighted are either not required or don't work for an Omori
@@ -86,7 +64,7 @@ Copy/Cut/Paste
 At the top left and highlighted in orange on the diagram, the
 Copy/Cut/Paste buttons can copy, cut, and paste selected events.
 Alternatively, this can be done using ``CTRL + C``, ``CTRL + X``, and
-``CTRL+ V``, like most other editing software.
+``CTRL + V``, like most other editing software.
 
 Database
 ~~~~~~~~
@@ -97,31 +75,7 @@ important parts to Omori modding. Here, you can edit actor, item, enemy,
 system, animation, state, and common event data. An image of the window
 is shown below.
 
-.. raw:: html
-
-   <figure>
-
-.. raw:: html
-
-   <figcaption>
-
-.. raw:: html
-
-   <p>
-
-The Database window of RPG Maker MV.
-
-.. raw:: html
-
-   </p>
-
-.. raw:: html
-
-   </figcaption>
-
-.. raw:: html
-
-   </figure>
+<PICTURE HERE>
 
 Each tab has its own smaller windows, but they're labaled and should be
 easy to navigate.
@@ -153,203 +107,4 @@ From left to right, the bar will show:
 - Map zoom size
 - Selected tile (x, y)
 - Event ID and name (if event tile is selected)
-
-Extra Resources
----------------
-
-.. raw:: html
-
-   <table data-view="cards">
-
-.. raw:: html
-
-   <thead>
-
-.. raw:: html
-
-   <tr>
-
-.. raw:: html
-
-   <th>
-
-.. raw:: html
-
-   </th>
-
-.. raw:: html
-
-   <th>
-
-.. raw:: html
-
-   </th>
-
-.. raw:: html
-
-   <th>
-
-.. raw:: html
-
-   </th>
-
-.. raw:: html
-
-   <th data-hidden data-card-target data-type="content-ref">
-
-.. raw:: html
-
-   </th>
-
-.. raw:: html
-
-   </tr>
-
-.. raw:: html
-
-   </thead>
-
-.. raw:: html
-
-   <tbody>
-
-.. raw:: html
-
-   <tr>
-
-.. raw:: html
-
-   <td>
-
-In-Depth RPG Maker MV Tutorial
-
-.. raw:: html
-
-   </td>
-
-.. raw:: html
-
-   <td>
-
-Note: Things like sample maps and tiling/tilesets don't apply to OMORI
-projects
-
-.. raw:: html
-
-   </td>
-
-.. raw:: html
-
-   <td>
-
-.. raw:: html
-
-   </td>
-
-.. raw:: html
-
-   <td>
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=1602148622
-
-.. raw:: html
-
-   </td>
-
-.. raw:: html
-
-   </tr>
-
-.. raw:: html
-
-   <tr>
-
-.. raw:: html
-
-   <td>
-
-RPG Maker MV Support Forums
-
-.. raw:: html
-
-   </td>
-
-.. raw:: html
-
-   <td>
-
-A support forum for all things RPG Maker MV related.
-
-.. raw:: html
-
-   </td>
-
-.. raw:: html
-
-   <td>
-
-.. raw:: html
-
-   </td>
-
-.. raw:: html
-
-   <td>
-
-https://forums.rpgmakerweb.com/index.php?forums/rpg-maker-mv-support.129/
-
-.. raw:: html
-
-   </td>
-
-.. raw:: html
-
-   </tr>
-
-.. raw:: html
-
-   <tr>
-
-.. raw:: html
-
-   <td>
-
-.. raw:: html
-
-   </td>
-
-.. raw:: html
-
-   <td>
-
-.. raw:: html
-
-   </td>
-
-.. raw:: html
-
-   <td>
-
-.. raw:: html
-
-   </td>
-
-.. raw:: html
-
-   <td>
-
-.. raw:: html
-
-   </td>
-
-.. raw:: html
-
-   </tr>
-
-.. raw:: html
-
-   </tbody>
-
-.. raw:: html
-
-   </table>
+  

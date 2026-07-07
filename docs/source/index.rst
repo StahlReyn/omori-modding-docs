@@ -280,6 +280,8 @@ Additional Resources
    :maxdepth: 1
    :caption: 🏰 RPGMaker MV
    
+   rpgmaker/intro-to-rpgmaker-mv
+   rpgmaker/map-creation
    rpgmaker/custom-battles
    rpgmaker/quests
 
