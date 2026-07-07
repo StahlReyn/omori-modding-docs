@@ -14,22 +14,24 @@ labeled "Mods". An image showing the tab is seen below.
 
 .. figure::
    https://user-images.githubusercontent.com/87251065/217338415-9b251b6d-bcf1-4eb2-91ea-40d8337985b6.PNG
-   :alt: modsettings
-
-   modsettings
+   :alt: Mod Settings
+   :align: center
+   :width: 400px
+   
+   Mod Settings
 
 Here we are focusing on the "Decrypt" label. Here is an explanation of
 what everything here does:
 
-``Decryption Mode``- Decides what the game will decrypt. "Everything"
+``Decryption Mode`` - Decides what the game will decrypt. "Everything"
 decrypts the base game with mods, "Base Game" only decrypts the vanilla
 assets, and "Only Mods" decrypts only the currently enabled mods.
 
-``Generate as Rpgmaker project?``- Decides whether or not an Rpgmaker
+``Generate as Rpgmaker project?`` - Decides whether or not an Rpgmaker
 project file will be generated. Unless you're only doing basic asset
 editing, you will want to select "Yes" on this.
 
-``Start decryption``- Clicking the button will start game decryption
+``Start decryption`` - Clicking the button will start game decryption
 with the settings. It may take a while, so be patient! Progress is shown
 on a blue bar at the top of the screen. The decrypted assets will be in
 the OMORI game folder, under a new folder named "www_playtest_xxxxxx" or
@@ -47,11 +49,13 @@ button at the top.
 Resetting Installation
 ^^^^^^^^^^^^^^^^^^^^^^
 
+.. warning::
+
+   This might override (delete) mod files, so make sure you back up files
+   you want to keep.
+
 If you broke your installation of OMORI (meaning it doesn't work
 properly or at all), then you can fix your installation using Steam.
-
-**This might override (delete) mod files, so make sure you back up files
-you want to keep.**
 
 Save files should not be affected, but they might become unusable if
 they require a specific mod.
@@ -72,21 +76,16 @@ Dev Tools
 
    This guide assumes that you are already familiar with OMORI mod
    development, and that you know where some files need to go. You should
-   also already know `how to fix your OMORI
-   installation <resetting-installation.md>`__, in case you break it.
+   also already know how to fix your OMORI installation, in case you break it.
 
-   Furthermore, `some mods might not work in SDK
-   mode. <#user-content-fn-1>`__\  [1]_
+   Furthermore, some mods might not work in SDK mode.\ [1]_
 
 To get `dev tools <https://flaviocopes.com/browser-dev-tools>`__ in
 OMORI, which can be very helpful in debugging your mod, you need to do a
 few steps:
 
 1. Download the SDK edition of the exact same NW.js version that OMORI
-   is using 
-
-   - For OMORI v1.0.8 -
-     `nwjs-sdk-v0.29.0-win-x64.zip <https://dl.nwjs.io/v0.29.0>`__
+   is using. For OMORI v1.0.8 it is `nwjs-sdk-v0.29.0-win-x64.zip <https://dl.nwjs.io/v0.29.0>`__
 
 2. Drag all your files into the OMORI folder and choose replace /
    overwrite

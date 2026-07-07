@@ -5,16 +5,19 @@ Overview
 Steam in 2020. Through custom tools, it is possible to mod the Steam
 version of the game.*
 
-.. warning::
-   **Disclaimer:** 
-   OMORI is a registered trademark of OMOCAT LLC. This wiki is an
-   unofficial, fan-made resource and has no association with OMOCAT LLC.
+.. admonition:: Disclaimer
+    :class: warning
+    
+    OMORI is a registered trademark of OMOCAT LLC. This wiki is an
+    unofficial, fan-made resource and has no association with OMOCAT LLC.
 
-   **Mature Content Description:** 
-   This game contains depictions of depression, anxiety, and suicide, and
-   may not be suitable for all audiences. It also contains bright flashing
-   imagery that may cause discomfort and/or seizures for those with
-   photosensitive epilepsy. Viewer discretion is advised.
+.. admonition:: Mature Content Description
+    :class: warning
+    
+    This game contains depictions of depression, anxiety, and suicide, and
+    may not be suitable for all audiences. It also contains bright flashing
+    imagery that may cause discomfort and/or seizures for those with
+    photosensitive epilepsy. Viewer discretion is advised.
 
 Modding Tools
 -------------
@@ -25,9 +28,9 @@ Modding Tools
     .. grid-item-card::
         :shadow: md
 
-        Having OMORI is a given, but in case you forgot you can get it on Steam.
-        ^^^
         **OMORI**
+        ^^^
+        Having OMORI is a given, but in case you forgot you can get it on Steam.
         
         .. button-link:: https://store.steampowered.com/app/1150690/OMORI/
             :color: primary
@@ -39,9 +42,9 @@ Modding Tools
     .. grid-item-card::
         :shadow: md
 
-        Get Oneloader, the mod loader. **This is required to create and install mods.** Learn how to install here.
-        ^^^
         **Oneloader**
+        ^^^
+        Get Oneloader, the mod loader. **This is required to create and install mods.** Learn how to install here.
 
         .. button-link:: https://github.com/rphsoftware/OneLoader/releases
             :color: primary
@@ -53,9 +56,9 @@ Modding Tools
     .. grid-item-card::
         :shadow: md
 
-        Allows for the creation of mod zips for mods built off of a playtest folder. Created by Rph.
-        ^^^
         **Bundletool**
+        ^^^
+        Allows for the creation of mod zips for mods built off of a playtest folder. Created by Rph.
 
         .. button-link:: https://mods.one/mod/bt
             :color: primary
@@ -67,9 +70,9 @@ Modding Tools
     .. grid-item-card::
         :shadow: md
 
-        Get RPGMAKER MV. **This is required to edit OMORI's data, map events, enemies, etc.** It's expensive but goes on sale often.
-        ^^^
         **Data Editing**
+        ^^^
+        Get RPGMAKER MV. **This is required to edit OMORI's data, map events, enemies, etc.** It's expensive but goes on sale often.
 
         .. button-link:: https://store.steampowered.com/app/363890/RPG_Maker_MV/
             :color: primary
@@ -90,10 +93,10 @@ Modding Tools
     .. grid-item-card::
         :shadow: md
 
+        **Map Editing**
+        ^^^
         Get Tiled. **This is required to edit OMORI's map sprites and tilesets.**
         Omori uses Tiled 1.0.3, but with plugins may use later versions.
-        ^^^
-        **Map Editing**
 
         .. button-link:: https://www.mapeditor.org/2017/08/29/tiled-1-0-3-released.html
             :color: primary
@@ -113,9 +116,9 @@ Modding Tools
     .. grid-item-card::
         :shadow: md
 
-        While you can use just about any text editor to edit OMORI's dialogue and plugins, VSCode is recommended.
-        ^^^
         **Dialogue and Plugin Editing**
+        ^^^
+        While you can use just about any text editor to edit OMORI's dialogue and plugins, VSCode is recommended.
 
         .. button-link:: https://code.visualstudio.com/
             :color: primary
@@ -127,9 +130,9 @@ Modding Tools
     .. grid-item-card::
         :shadow: md
 
-        Any digital art software will work for this. You can use Medibang for free, or Aseprite as a paid pixel-art option.
-        ^^^
         **Pixel Sprite Editing**
+        ^^^
+        Any digital art software will work for this. You can use Medibang for free, or Aseprite as a paid pixel-art option.
 
         .. button-link:: https://medibangpaint.com/en/
             :color: primary
@@ -151,15 +154,15 @@ Modding Tools
 Additional Resources
 --------------------
 
-.. grid:: 1 2 2 3
-    :gutter: 3
+.. grid:: 1 2 2 2
+    :gutter: 2
 
     .. grid-item-card::
         :shadow: sm
 
-        A discord server to discuss OMORI and mod content, as well as ask for support on mod-related issues.
-        ^^^
         **Community Hub**
+        ^^^
+        A discord server to discuss OMORI and mod content, as well as ask for support on mod-related issues.
 
         .. button-link:: https://discord.gg/SPmRACUHUv
             :color: primary
@@ -170,9 +173,9 @@ Additional Resources
     .. grid-item-card::
         :shadow: sm
 
-        A document containing information on creating mods. Less organized than the wiki but contains more info.
-        ^^^
         **Documentation**
+        ^^^
+        A document containing information on creating mods. Less organized than the wiki but contains more info.
 
         .. button-link:: https://docs.google.com/document/d/15UAzmwPaECVOfprx5xpaTPKrtwF69kSa2etuP6EqkaU/edit?usp=sharing
             :color: primary
@@ -183,9 +186,9 @@ Additional Resources
     .. grid-item-card::
         :shadow: sm
 
-        Contains and explains all of the commands used in Omori's dialogue/yaml files.
-        ^^^
         **Reference**
+        ^^^
+        Contains and explains all of the commands used in Omori's dialogue/yaml files.
 
         .. button-link:: https://github.com/Gilbert142/gomori/wiki/Text-Formatting
             :color: primary
@@ -196,9 +199,9 @@ Additional Resources
     .. grid-item-card::
         :shadow: sm
 
-        A handy spreadsheet containing script calls for RPGMAKER MV.
-        ^^^
         **Development Spreadsheet**
+        ^^^
+        A handy spreadsheet containing script calls for RPGMAKER MV.
 
         .. button-link:: https://docs.google.com/spreadsheets/d/1-Oa0cRGpjC8L5JO8vdMwOaYMKO75dtfKDOetnvh7OHs/edit#gid=1514267595
             :color: primary
@@ -209,9 +212,9 @@ Additional Resources
     .. grid-item-card::
         :shadow: sm
 
-        Contains some Omori-specific script calls, goes hand in hand with the RPG Maker MV document.
-        ^^^
         **Dev Notes**
+        ^^^
+        Contains some Omori-specific script calls, goes hand in hand with the RPG Maker MV document.
 
         .. button-link:: https://docs.google.com/document/d/1ORpl6Ykxtm-_K2ak3GsH5nATyF7BjraQv6p8Q607FPQ/edit
             :color: primary
@@ -222,9 +225,9 @@ Additional Resources
     .. grid-item-card::
         :shadow: sm
 
-        A support forum for everything RPG Maker related.
-        ^^^
         **Forum Support**
+        ^^^
+        A support forum for everything RPG Maker related.
 
         .. button-link:: https://forums.rpgmakerweb.com/index.php?forums/rpg-maker-mv-support.129/
             :color: primary
@@ -235,9 +238,9 @@ Additional Resources
     .. grid-item-card::
         :shadow: sm
 
-        An archive containing every map, dialogue, variable, and switch in the game.
-        ^^^
         **Database Archive**
+        ^^^
+        An archive containing every map, dialogue, variable, and switch in the game.
 
         .. button-link:: https://goats.dev/omori/maps.html
             :color: primary
@@ -248,9 +251,9 @@ Additional Resources
     .. grid-item-card::
         :shadow: sm
 
-        Contains several handy plugins for adding or fixing minor things in your mods.
-        ^^^
         **Extension Pack**
+        ^^^
+        Contains several handy plugins for adding or fixing minor things in your mods.
 
         .. button-link:: https://github.com/rphsoftware/omori-utils
             :color: primary
@@ -297,6 +300,8 @@ Additional Resources
    :maxdepth: 1
    :caption: 📰 Glossary
 
+   glossary/common-scripts
+   glossary/common-plugins
    glossary/file-types
    glossary/data-files
    glossary/omori-files
