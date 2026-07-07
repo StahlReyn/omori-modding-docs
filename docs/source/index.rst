@@ -273,6 +273,15 @@ Additional Resources
    getting-started/installing-mods
    getting-started/decrypting-game
    getting-started/packaging-mods
+   getting-started/onemaker
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: 🏰 RPGMaker MV
+   
+   rpgmaker/custom-battles
+   rpgmaker/quests
 
 .. toctree::
    :hidden:
@@ -302,6 +311,8 @@ Additional Resources
 
    glossary/common-scripts
    glossary/common-plugins
+   glossary/sprite-sheet-filenames
+   glossary/yaml-formatting
    glossary/file-types
    glossary/data-files
    glossary/omori-files

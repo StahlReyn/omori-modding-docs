@@ -1,4 +1,4 @@
-OneMaker Installation
+OneMaker
 =====================
 
 OneMaker is a project that adds UI modifications to RPG Maker MV,
@@ -22,6 +22,9 @@ Features:
 
 :samp:
 
+Installation
+-------------------------------
+
 To start installation, you will want to download this:
 
 - On Windows: `Download
@@ -29,8 +32,7 @@ To start installation, you will want to download this:
   (Extract the zip and run the .bat file)
 - On Linux (Or just manually): `Download
   Here <https://github.com/FoGsesipod/OneMaker-MV/releases/download/1.2.2/OneMaker-MV.zip>`__
-  (Extract the zip, then copy the contents to
-  ``steam/steamapps/common/RPGMaker MV/``
+  (Extract the zip, then copy the contents to ``steam/steamapps/common/RPGMaker MV/``)
 
 You may need to disable antivirus if you are choosing to run the .bat.
 Do not worry, as this is a safe file developed by a trusted source.
@@ -45,3 +47,27 @@ The github for the project can be found here:
 https://github.com/FoGsesipod/OneMaker-MV
 
  
+Visible Tiled Maps in RPG Maker
+-------------------------------
+
+.. note::
+
+  This may have some issues with newer versions of Tiled. 
+  It is recommended to use 1.0.3.
+
+By default, tiled maps will not show in RPG Maker. However, OneMaker has
+functionality that allows them to be visible in game without the use of
+parallaxes.
+
+Download the file here:
+- `Link <https://github.com/rphsoftware/omori-map-preview-renderer/releases/download/0.1.0/OmoriMapRenderer_win64.exe>`__
+  (Windows)
+- `Link <https://github.com/rphsoftware/omori-map-preview-renderer/releases/download/0.1.0/OmoriMapRenderer_linux>`__
+  (Linux)
+
+You will want to put it into your playtest folder as shown, and then run it.
+
+:samp:
+
+You can use a checkbox in the map options of OneMaker to disable or
+enable tiled map viewing.
